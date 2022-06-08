@@ -1,0 +1,1565 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Saved with string encoding Unicode (UTF-8)
+
+@inproceedings{scharf2022,
+	author = {Scharf, Vincent and Syed Ibrahim, Shakir and Stolarz, Micha{\l} and Mehta, Mihir and Houben, Sebastian},
+	title = {{Object Tracking for Rotating Table Test}},
+	booktitle = {Proceedings of the 25th RoboCup International Symposium},
+	year = {2022},
+	abstract = {In the RoboCup@Work competition, the Rotating Table Test problem refers to the task of automatically grasping an object from a circular table, rotating at constant angular velocity. This task requires the robot to track the target object's position and grasp it. In this work, we propose an online tracking system which works in real-time to track objects in the given task. Our approach is based on the YOLOv5 detection backbone and uses a modified version of the SORT tracker. The used tracker is trained solely on a pre-existing detection dataset containing annotated static images, thanks to which the collection of video data is not required. We evaluate and compare SORT with YOLOv5 and SqueezeDet backbones and show the improvement in tracking performance when using the former.}
+}
+
+@incollection{Stolarz2022_leap_hri_workshop,
+	abstract = {Children with Autism Spectrum Disorder find robots easier to communicate with than humans. Thus, robots have been introduced in autism therapies. However, due to the environmental complexity, the used robots often have to be controlled manually. This is a significant drawback of such systems and it is required to make them more autonomous. In particular, the robot should interpret the child's state and continuously adapt its actions according to the behaviour of the child under therapy. This survey elaborates on different forms of personalized robot behaviour models. Various approaches from the field of Human-Robot Interaction, as well as Child- Robot Interaction, are discussed. The aim is to compare them in terms of their deficits, feasibility in real scenarios, and potential usability for autism-specific Robot-Assisted Therapy. The general challenge for algorithms based on which the robot learns proper interaction strategies during therapeutic games is to increase the robot's autonomy, thereby providing a basis for a robot's decision-making.},
+	author = {Stolarz, Micha\l{} and Mitrevski, Alex and Wasil, Mohammad and Pl{\"o}ger, Paul G.},
+	booktitle = {HRI Workshop on Lifelong Learning and Personalization in Long-Term Human-Robot Interaction (LEAP-HRI)},
+	title = {{Personalized Behaviour Models: A Survey Focusing on Autism Therapy Applications​}},
+	year = {2022},
+	url = {https://leap-hri.github.io/papers/LEAP-HRI_2022_paper_3.pdf}
+}
+
+@incollection{Stolarz2021_icsr_social_ai_workshop,
+	abstract = {In Robot-Assisted Therapy for children with Autism Spectrum Disorder, the therapists' workload is increased due to the necessity of controlling the robot manually. The solution for this problem is to increase the level of autonomy of the system, namely the robot should interpret and adapt to the behaviour of the child under therapy. The problem that we are adressing is to develop a behaviour model that will be used for the robot decision-making process, which will learn how to adequately react to certain child reactions. We propose the use of the reinforcement learning technique for this task, where feedback for learning is obtained from the therapist's evaluation of a robot's behaviour.},
+	author = {Stolarz, Micha\l{} and Mitrevski, Alex and Wasil, Mohammad and Pl{\"o}ger, Paul G.},
+	booktitle = {ICRS Workshop on Social AI for Human-Robot Interaction of Human-Care Robots},
+	title = {{Personalised Behaviour Model for Autism Therapy}},
+	url = {https://socialrobot-kros.github.io/assets/resources/ICSR2021_Workshop_SHRI_Micha%C5%82%20Stolarz.pdf},
+	year = {2021},
+	note = {Extended abstract}
+}
+
+@incollection{Gohil2021,
+	abstract = {Robots with different sensors could help in understanding different aspects of the environment they are working in; however, each sensor modality is often processed individually and information from other sensors is not utilized jointly. One of the reasons is different sampling rates and dimensions of different modalities. In this paper, we use multimodal data fusion techniques such as early, late and intermediate fusion for grasp failure identification using four different 3D convolution-based multimodal neural networks (3D-MNN). Our results on a visual-tactile dataset shows that the performance of the classification task is improved while using multimodal data. In addition, a neural network trained with 30:22 train-test split of multimodal data achieved accuracy comparable to a network trained with 78:22 train-test split of unimodal data.},
+	author = {Gohil, Priteshkumar and Thoduka, Santosh and Pl{\"o}ger, Paul G.},
+	booktitle = {RoboTac International Workshop, New Advances in Tactile Sensation, Interactive Perception, Control, and Learning A Soft Robotic Perspective on Grasp, Manipulation, & HRI at IROS},
+	title = {{Sensor Fusion and Multimodal Learning for Robotic Grasp Verification}},
+	url = {https://www.robotact.de/rbotac2021},
+	year = {2021}
+}
+
+@incollection{Mitrevski2021_iros_spar_workshop,
+	abstract = {For executing actions, robots need reliable continuous policy models that are able to process complex sensory information in order to generate appropriate execution parameters. At the same time, robots should have some level of understanding of their decision-making process, as this contributes towards their explainability and, as a result, increases their trustworthiness in applications where they co-exist with humans -- particularly when they experience execution failures. These requirements can be satisfied by hybrid models, which combine semantic and continuous execution models into a common representation. In this paper, we shortly summarise our learning-based hybrid representation of action execution knowledge and some extensions thereof, such that we particularly discuss how the representation can be embedded into a framework for generalising actions over objects and how it can be utilised for diagnosing certain types of execution failures.},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {5th Workshop on Semantic Policy and Action Representations for Autonomous Robots (SPAR) at IROS},
+	title = {{Hybrid Execution Models of Parameterised Actions for Explainable and Diagnosable Robot Action Execution}},
+	url = {https://sites.google.com/view/spar-2021/accepted-abstracts},
+	year = {2021},
+	note = {Extended abstract}
+}
+
+@inproceedings{valdenegrotoro2021,
+  title = {Pre-trained Models for Sonar Images},
+  author = {Valdenegro-Toro, Matias and Preciado-Grijalva, Alan and Wehbe, Bilal},
+  booktitle = {Global OCEANS},
+  year = {2021},
+  abstract = {Machine learning and neural networks are now ubiquitous in sonar perception, but it lags behind the computer vision field due to the lack of data and pre-trained models specifically for sonar images. In this paper we present the Marine Debris Turntable dataset and produce pre-trained neural networks trained on this dataset, meant to fill the gap of missing pre-trained models for sonar images. We train Resnet 20, MobileNets, DenseNet121, SqueezeNet, MiniXception, and an Autoencoder, over several input image sizes, from 32 x 32 to 96 x 96, on the Marine Debris turntable dataset. We evaluate these models using transfer learning for low-shot classification in the Marine Debris Watertank and another dataset captured using a Gemini 720i sonar. Our results show that in both datasets the pre-trained models produce good features that allow good classification accuracy with low samples (10-30 samples per class). The Gemini dataset validates that the features transfer to other kinds of sonar sensors. We expect that the community benefits from the public release of our pre-trained models and the turntable dataset.}
+}
+
+@inproceedings{devagekar2021,
+	author = {Devagekar, Somesh and Delforouzi, Ahmad and Pl{\"o}ger, Paul G},
+	title = {Fault Detection in Uni-Directional Tape Production Using Image Processing},
+	booktitle = {International Conference on Pattern Recognition},
+	pages = {719--732},
+	year = {2021},
+	url = {https://link.springer.com/chapter/10.1007/978-3-030-68799-1_52}
+}
+
+@inproceedings{Sohail2021_ecmr,
+	abstract = {An important prerequisite for the reliability and robustness of a service robot is ensuring the robot's correct behavior when it performs various tasks of interest. Extensive testing is one established approach for ensuring behavioural correctness; this becomes even more important with the integration of learning-based methods into robot software architectures, as there are often no theoretical guarantees about the performance of such methods in varying scenarios. In this paper, we aim towards evaluating the correctness of robot behaviors in tabletop manipulation through automatic generation of simulated test scenarios in which a robot assesses its performance using property-based testing. In particular, key properties of interest for various robot actions are encoded in an action ontology and are then verified and validated within a simulated environment. We evaluate our framework with a Toyota Human Support Robot (HSR) which is tested in a Gazebo simulation. We show that our framework can correctly and consistently identify various failed actions in a variety of randomised tabletop manipulation scenarios, in addition to providing deeper insights into the type and location of failures for each designed property.},
+	author = {Sohail, Salman Omar and Mitrevski, Alex and Hochgeschwender, Nico and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the European Conference on Mobile Robots (ECMR)},
+	title = {{Property-Based Testing in Simulation for Verifying Robot Action Execution in Tabletop Manipulation}},
+	url = {https://ieeexplore.ieee.org/document/9568837},
+	pages = {1--7},
+	year = {2021}}
+
+@inproceedings{Thoduka2021_iros,
+	abstract = {Execution monitoring is essential for robots to detect and respond to failures. Since it is impossible to enumerate all failures for a given task, we learn from successful executions of the task to detect visual anomalies during runtime. Our method learns to predict the motions that occur during the nominal execution of a task, including camera and robot body motion. A probabilistic U-Net architecture is used to learn to predict optical flow, and the robot's kinematics and 3D model are used to model camera and body motion. The errors between the observed and predicted motion are used to calculate an anomaly score. We evaluate our method on a dataset of the robot placing a book on a shelf, which includes anomalies such as falling books, camera occlusions, and robot disturbances. We find that modeling camera and body motion, in addition to the learning-based optical flow prediction, results in an improvement of the area under the receiver operating characteristic curve from 0.752 to 0.804, and the area under the precision-recall curve from 0.467 to 0.549.},
+	author = {Thoduka, Santosh and Gall, Juergen and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	title = {{Using Visual Anomaly Detection for Task Execution Monitoring}},
+	year = {2021}}
+
+@inproceedings{Mitrevski2021_iros,
+	abstract = {When an autonomous robot learns how to execute actions, it is of interest to know if and when the execution policy can be generalised to variations of the learning scenarios. This can inform the robot about the necessity of additional learning, as using incomplete or unsuitable policies can lead to execution failures. Generalisation is particularly relevant when a robot has to deal with a large variety of objects and in different contexts. In this paper, we propose and analyse a strategy for generalising parameterised execution models of manipulation actions over different objects based on an object ontology. In particular, a robot transfers a known execution model to objects of related classes according to the ontology, but only if there is no other evidence that the model may be unsuitable. This allows using ontological knowledge as prior information that is then refined by the robot's own experiences. We verify our algorithm for two actions - grasping and stowing everyday objects - such that we show that the robot can deduce cases in which an existing policy can generalise to other objects and when additional execution knowledge has to be acquired.},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	title = {{Ontology-Assisted Generalisation of Robot Action Execution Knowledge}},
+	year = {2021}}
+
+@inproceedings{Thoduka2021_hcii,
+	abstract = {Domestic service robots are becoming more ubiquitous and can perform various assistive tasks such as fetching items or helping with medicine intake to support humans with impairments of varying severity. However, the development of robots taking care of humans should not only be focused on developing advanced functionalities, but should also be accompanied by the definition of benchmarking protocols enabling the rigorous and reproducible evaluation of robots and their functionalities. Thereby, of particular importance is the assessment of robots' ability to deal with failures and unexpected events which occur when they interact with humans in real-world scenarios. For example, a person might drop an object during a robot-human hand over due to its weight. However, the systematic investigation of hazardous situations remains challenging as (i) failures are difficult to reproduce; and (ii) possibly impact the health of humans. Therefore, we propose in this paper to employ the concept of scientific robotic competitions as a benchmarking protocol for assessing care robots and to collect datasets of human-robot interactions covering a large variety of failures which are present in real-world domestic environments. We demonstrate the process of defining the benchmarking procedure with the human-to-robot and robot-to-human handover functionalities, and execute a dry-run of the benchmarks while inducing several failure modes such as dropping objects, ignoring the robot, and not releasing objects. A dataset comprising colour and depth images, a wrist force-torque sensor and other internal sensors of the robot was collected during the dry-run. In addition, we discuss the relation between benchmarking protocols and standards that exist or need to be extended with regard to the test procedures required for verifying and validating conformance to standards.},
+	author = {Thoduka, Santosh and Hochgeschwender, Nico},
+	booktitle = {Digital Human Modeling and Applications in Health, Safety, Ergonomics and Risk Management. AI, Product and Service},
+	title = {{Benchmarking Robots by Inducing Failures in Competition Scenarios}},
+	url = {https://doi.org/10.1007/978-3-030-77820-0_20},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-030-77820-0_20}}
+
+@incollection{Parra2021,
+	abstract = {Assembling robotic multi-agent systems is becoming increasingly attractive due to the emergence of affordable robots. For coordinated missions such fleets usually have to communicate over unreliable channels and still achieve adequate performance. To support system designers in quantifying adequateness, in this paper we present a domain specific language (DSL) that allows domain-experts to specify (i) quality of service (QoS) requirements of the communication channels; and (ii) QoS capabilities of the involved software components. Such QoS specifications complement the QoS management that has recently been introduced into ROS 2. To fully utilize this approach we have also developed an associated ROS 2 DSL which enables us to verify QoS specifications and provide feedback to the users already at design time. We have evaluated the developed language workbench following the Goal-Question-Metric (GQM) approach which demonstrates that the QoS DSL is complete with respect to ROS 2 and can be easily extended. Additionally, we generate a proof-of-concept implementation for a QoS monitor that can be seamlessly integrated into existing ROS 2 projects.},
+	author = {Parra, Samuel and Schneider, Sven and Hochgeschwender, Nico},
+	booktitle = {RoSE International Workshop on Robotics Software Engineering},
+	title = {{Specifying QoS Requirements and Capabilities for Component-Based Robot Software.}},
+	url = {https://rose-workshops.github.io/files/rose2021/papers/rose2021_6.pdf},
+	year = {2021},
+	Bdsk-Url-1 = {https://rose-workshops.github.io/files/rose2021/papers/rose2021_6.pdf}}
+
+@inproceedings{Mitrevski2021_icra,
+	abstract = {When faced with an execution failure, an intelligent robot should be able to identify the likely reasons for the failure and adapt its execution policy accordingly. This paper addresses the question of how to utilise knowledge about the execution process, expressed in terms of learned constraints, in order to direct the diagnosis and experience acquisition process. In particular, we present two methods for creating a synergy between failure diagnosis and execution model learning. We first propose a method for diagnosing execution failures of parameterised action execution models, which searches for action parameters that violate a learned precondition model. We then develop a strategy that uses the results of the diagnosis process for generating synthetic data that are more likely to lead to successful execution, thereby increasing the set of available experiences to learn from. The diagnosis and experience correction methods are evaluated for the problem of handle grasping, such that we experimentally demonstrate the effectiveness of the diagnosis algorithm and show that corrected failed experiences can contribute towards improving the execution success of a robot.},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+	title = {{Robot Action Diagnosis and Experience Correction by Falsifying Parameterised Execution Models}},
+	url = {https://ieeexplore.ieee.org/document/9561710},
+	pages = {11025--11031},
+	year = {2021}}
+
+@incollection{MitrevskiPloeger2020_iros_failure_workshop,
+	abstract = {Failures in manipulation are an inevitable aspect of robot operation, particularly in open-ended, human-centered environments, where robots need to be able to handle different types of objects. There are various causes of such failures, but one common problem is the lack of understanding of the differences between physical object properties, due to which manipulation strategies that are useful in one scenario become unsuitable in another. This problem could be alleviated by tighter integration with object ontologies and by equipping robots with an ability to learn the properties of previously unseen objects through self-guided experimentation.},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G.},
+	booktitle = {IROS Workshop, Why Robots fail to grasp? - Failure ca(u)ses in robot grasping and manipulation},
+	title = {{Lack of Understanding of Objects as a Cause of Manipulation Failures}},
+	url = {https://failtograsp.github.io/blog/ws},
+	year = {2020},
+	Bdsk-Url-1 = {https://failtograsp.github.io/blog/ws}}
+
+@incollection{Mitrevski2020_dx,
+	abstract = {When a robotic agent experiences a failure while acting in the world, it should be possible to discover why that failure has occurred, namely to diagnose the failure. In this paper, we argue that the diagnosability of robot actions, at least in a classical sense, is a feature that cannot be taken for granted since it strongly depends on the underlying action representation. We specifically define criteria that determine the diagnosability of robot actions. The diagnosability question is then analysed in the context of a handle manipulation action, such that we discuss two different representations of the action - a composite policy with a learned success model for the action parameters, and a neural network-based monolithic policy - both of which exist on different sides of the diagnosability spectrum. Through this comparison, we conclude that composite actions are more suited to explicit diagnosis, but representations with less prior knowledge are more flexible. This suggests that model learning may provide balance between flexibility and diagnosability; however, data-driven diagnosis methods also need to be enhanced in order to deal with the complexity of modern robots.},
+	author = {Mitrevski, Alex and Abdelrahman, Ahmed Faisal and Narasimamurthy, Anirudh and Pl{\"o}ger, Paul G.},
+	booktitle = {31th International Workshop on Principles of Diagnosis (DX)},
+	title = {{On the Diagnosability of Actions Performed by Contemporary Robotic Systems}},
+	url = {http://dx-2020.org/papers/DX-2020_paper_6.pdf},
+	year = {2020},
+	Bdsk-Url-1 = {http://dx-2020.org/papers/DX-2020_paper_6.pdf}}
+
+@inproceedings{matin2020,
+	author = {Matin, Maryam and Valdenegro-Toro, Matias},
+	booktitle = {ECCV Workshop on Women in Computer Vision},
+	title = {Hey Human, If your Facial Emotions are Uncertain, You Should Use Bayesian Neural Networks!},
+	url = {https://arxiv.org/abs/2008.07426v1},
+	year = {2020},
+	Bdsk-Url-1 = {https://arxiv.org/abs/2008.07426v1}}
+
+@inproceedings{dhole2020,
+	author = {Dhole, Pranjal and Asteroth, Alexander and Meilinger, Stefanie},
+	booktitle = {2nd International Workshop on Agent-Based Modelling of Human Behaviour},
+	title = {Calibrating probabilistic cellular automata for agent-based modelling of real systems},
+	url = {http://abmhub.cs.ucl.ac.uk/2020/papers/Dhole.pdf},
+	year = {2020},
+	Bdsk-Url-1 = {http://abmhub.cs.ucl.ac.uk/2020/papers/Dhole.pdf}}
+
+@article{Bui2020Accuracy-improv,
+	author = {Bui, Duong Minh and Le, Phuc Duy and Cao, Minh Tien and Pham, Trang Thi and Pham, Duy Anh},
+	date-modified = {2021-09-15 09:56:37 +0200},
+	journal = {International Journal of Green Energy},
+	keywords = {10.1080/15435075.2020.1761810},
+	number = {7},
+	pages = {382-406},
+	title = {Accuracy improvement of various short-term load forecasting models by a novel and unified statistical data-filtering method},
+	volume = {17},
+	year = {2020},
+	Bdsk-Url-1 = {https://www.tandfonline.com/doi/abs/10.1080/15435075.2020.1761810?journalCode=ljge20},
+	Bdsk-Url-2 = {https://doi.org/10.1080/15435075.2020.1761810}}
+
+@inproceedings{padalkar2020,
+	abstract = {Compliant manipulation is a crucial skill for robots when they are supposed to act as helping hands in everyday household tasks. Still, nowadays, those skills are hand-crafted by experts which frequently requires labor-intensive, manual parameter tuning. Moreover, some tasks are too complex to be specified fully using a task specification. Learning these skills, by contrast, requires a high number of costly and potentially unsafe interactions with the environment. We present a compliant manipulation approach using reinforcement learning guided by the Task Frame Formalism, a task specification method. This allows us to specify the easy to model knowledge about a task while the robot learns the unmodeled components by reinforcement learning. We evaluate the approach by performing a compliant manipulation task with a KUKA LWR 4+ manipulator. The robot was able to learn force control policies directly on the robot without using any simulation.},
+	author = {Padalkar, Abhishek and Nieuwenhuisen, Matthias and Schneider, Sven and Schulz, Dirk},
+	booktitle = {Proceedings of the 17th International Conference on Informatics in Control, Automation and Robotics (ICINCO)},
+	pages = {221-231},
+	title = {{Learning to Close the Gap: Combining Task Frame Formalism and Reinforcement Learning for Compliant Vegetable Cutting}},
+	url = {https://doi.org/10.5220/0009590602210231},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.5220/0009590602210231}}
+
+@incollection{bhandary2020,
+	abstract = {Deep learning models are extensively used in various safety critical applications. Hence these models along with being accurate need to be highly reliable. One way of achieving this is by quantifying uncertainty. Bayesian methods for UQ have been extensively studied for Deep Learning models applied on images but have been less explored for 3D modalities such as point clouds often used for Robots and Autonomous Systems. In this work, we evaluate three uncertainty quantification methods namely Deep Ensembles, MC-Dropout and MC-DropConnect on the DarkNet21Seg 3D semantic segmentation model and comprehensively analyze the impact of various parameters such as number of models in ensembles or forward passes, and drop probability values, on task performance and uncertainty estimate quality. We find that Deep Ensembles outperforms other methods in both performance and uncertainty metrics. Deep ensembles outperform other methods by a margin of 2.4\% in terms of mIOU, 1.3\% in terms of accuracy, while providing reliable uncertainty for decision making.},
+	author = {Bhandary, Swaroop K. and Hochgeschwender, Nico and Pl{\"o}ger, Paul G. and Kirchner, Frank and Valdenegro-Toro, Matias},
+	booktitle = {ICML Workshop on Uncertainty and Robustness in Deep Learning},
+	title = {{Evaluating Uncertainty Estimation Methods on 3D Semantic Segmentation of Point Clouds}},
+	url = {http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-108.pdf},
+	year = {2020},
+	Bdsk-Url-1 = {http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-108.pdf}}
+
+@incollection{jeeveswaran_muthuraja2020,
+	abstract = {Efficient and comprehensive assessment of students knowledge is an imperative task in any learning process. Short answer grading is one of the most successful methods in assessing the knowledge of students. Many supervised learning and deep learning approaches have been used to automate the task of short answer grading in the past. We investigate why assistive grading with active learning would be the next logical step in this task as there is no absolute ground truth answer for any question and the task is very subjective in nature. We present a fast and easy method to harness the power of active learning and natural language processing in assisting the task of grading short answer questions. A web-based GUI is designed and implemented to incorporate an interactive short answer grading system. The experiments show that active learning saves the time and effort of graders in assessment and reaches the performance of supervised learning with less amount of graded answers for training.},
+	author = {Jeeveswaran, Kishaan and Muthuraja, Mohandass and Nair, Deebul and Pl{\"o}ger, Paul G.},
+	booktitle = {ICML Workshop on Real World Experiment Design and Active Learning},
+	title = {{Using Active Learning for Assisted Short Answer Grading}},
+	url = {https://realworldml.github.io/files/cr/14_Using_Active_Learning_for_Assisted_Short_Answer_Grading_cameraready.pdf},
+	year = {2020},
+	Bdsk-Url-1 = {https://realworldml.github.io/files/cr/14_Using_Active_Learning_for_Assisted_Short_Answer_Grading_cameraready.pdf}}
+
+@inproceedings{Mitrevski2020_iros,
+	abstract = {For robots acting in human-centered environments, the ability to improve based on experience is essential for reliable and adaptive operation; however, particularly in the context of robot failure analysis, experience-based improvement is only useful if robots are also able to reason about and explain the decisions they make during execution. In this paper, we describe and analyse a representation of execution-specific knowledge that combines (i) a relational model in the form of qualitative attributes that describe the conditions under which actions can be executed successfully and (ii) a continuous model in the form of a Gaussian process that can be used for generating parameters for action execution, but also for evaluating the expected execution success given a particular action parameterisation. The proposed representation is based on prior, modelled knowledge about actions and is combined with a learning process that is supervised by a teacher. We analyse the benefits of this representation in the context of two actions - grasping handles and pulling an object on a table - such that the experiments demonstrate that the joint relational-continuous model allows a robot to improve its execution based on experience, while reducing the severity of failures experienced during execution.},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Winner of the "Best Paper Award on Cognitive Robotics"},
+	pages = {5641--5647},
+	title = {Representation and Experience-Based Learning of Explainable Models for Robot Action Execution},
+	url = {https://ieeexplore.ieee.org/document/9341470},
+	year = {2020},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/9341470}}
+
+@inproceedings{Abdelrahman2020,
+	abstract = {An essential measure of autonomy in assistive service robots is adaptivity to the various contexts of human-oriented tasks, which are subject to subtle variations in task parameters that determine optimal behaviour. In this work, we propose an \textit{apprenticeship learning} approach to achieving context-aware action generalization on the task of robot-to-human object hand-over. The procedure combines learning from demonstration and reinforcement learning: a robot first imitates a demonstrator's execution of the task and then learns contextualized variants of the demonstrated action through experience. We use dynamic movement primitives as compact motion representations, and a model-based C-REPS algorithm for learning policies that can specify hand-over position, conditioned on context variables. Policies are learned using simulated task executions, before transferring them to the robot and evaluating emergent behaviours. We additionally conduct a user study involving participants assuming different postures and receiving an object from a robot, which executes hand-overs by either imitating a demonstrated motion, or adapting its motion to hand-over positions suggested by the learned policy. The results confirm the hypothesized improvements in the robot's perceived behaviour when it is context-aware and adaptive, and provide useful insights that can inform future developments.},
+	author = {Abdelrahman, Ahmed Faisal and Mitrevski, Alex and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the 2020 IEEE International Conference on Robotics and Automation (ICRA)},
+	pages = {1329-1335},
+	title = {Context-Aware Task Execution Using Apprenticeship Learning},
+	url = {https://ieeexplore.ieee.org/document/9197476},
+	year = {2020},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/9197476}}
+
+@inproceedings{hochgeschwender2019,
+	abstract = {Autonomous robots are already being used, for example, as tour guides, receptionists, or office-assistants. The proximity to humans and the possibility to physically interact with them highlights the importance of developing secure robot applications. It is crucial to consider security implications to be an important part of the robot application's development process. Adding security later in the application's life-cycle usually leads to high costs, or is not possible due to earlier design decisions. In this work, we present the Robot Application Security Process (RASP) as a lightweight process that enables the development of secure robot applications. Together with RASP we introduce the role of a Security Engineer (SecEng) as an important stakeholder in any robot application development process. RASP enables the SecEng to verify the completeness of his work and allows him to argue about the application's security with other stakeholders. Furthermore, we demonstrate how the RASP supports the SecEng and also other developers in their daily work.},
+	author = {Hochgeschwender, Nico and Cornelius, Gary and Voos, Holger},
+	booktitle = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	month = {November},
+	pages = {7791-7797},
+	title = {{Arguing Security of Autonomous Robots}},
+	url = {https://ieeexplore.ieee.org/document/8967670},
+	year = {2019},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/8967670}}
+
+@inproceedings{Schneider2019,
+	abstract = {We investigate two major limiting factors in the design and implementation of modern dynamics solvers that interfere with their full utilization in versatile, manipulation-driven robotic software architectures. The first limitation originates from the design of those solvers which aims at computational efficiency while neglecting composability. Instead, we advocate to design the solvers in such a way that they exploit linearity in the equations of motion to fully decompose the state of a kinematic chain. This enables a versatile recomposition and more flexible applications. Secondly, we have observed that most implementations follow the programming principle of information hiding. Consequently, the internal state that is used to compute motion control commands is withheld from other parts of the software architecture. We tackle this problem by following a dataflow programming paradigm and separating the software's dataflow from the control flow. Thereafter, we demonstrate those two simple, yet effective strategies to overcome the limitations along various case studies.},
+	author = {Schneider, Sven and Bruyninckx, Herman},
+	booktitle = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	month = {November},
+	pages = {7439-7446},
+	title = {{Exploiting Linearity in Dynamics Solvers for the Design of Composable Robotic Manipulation Architectures}},
+	url = {https://ieeexplore.ieee.org/document/8968500},
+	year = {2019},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/8968500}}
+
+@incollection{akuestenmacher2019_dx,
+	address = {Klagenfurt, Austria},
+	author = {K\"ustenmacher, Anastassia and Pl{\"o}ger, Paul G.},
+	booktitle = {30th International Workshop on Principles of Diagnosis (DX)},
+	date-added = {2019-10-18 11:35:34 +0200},
+	date-modified = {2019-10-18 11:36:55 +0200},
+	title = {{Symbolic Representation of Execution Specific Knowledge}},
+	url = {https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_26.pdf},
+	year = {2019},
+	Bdsk-Url-1 = {https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_26.pdf}}
+
+@inproceedings{Mahesh2019Requirements-fo,
+	abstract = {Stress is necessary for optimal performance and functioning in daily life. However, when stress exceeds person-specific coping levels, then it begins to negatively impact health and productivity. An automatic stress monitoring system that tracks stress levels based on physical and physiological parameters, can assist the user in maintaining stress within healthy limits. In order to build such a system, we need to develop and test various algorithms on a reference dataset consisting of multimodal stress responses. Such a reference dataset should fulfil requirements derived from results and practices of clinical and empirical research. This paper proposes a set of such requirements to support the establishment of a reference dataset for multimodal human stress detection. The requirements cover person-dependent and technical aspects such as selection of sample population, choice of stress stimuli, inclusion of multiple stress modalities, selection of annotation methods, and selection of data acquisition devices. Existing publicly available stress datasets were evaluated based on criteria derived from the proposed requirements. It was found that none of these datasets completely fulfilled the requirements. Therefore, efforts should be made in the future to establish a reference dataset, satisfying the specified requirements, in order to ensure comparability and reliability of results.},
+	author = {B. {Mahesh} and E. {Prassler} and T. {Hassan} and J. {Garbas}},
+	booktitle = {2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)},
+	month = {March},
+	pages = {492-498},
+	title = {Requirements for a Reference Dataset for Multimodal Human Stress Detection},
+	url = {https://ieeexplore.ieee.org/abstract/document/8730884},
+	year = {2019},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/abstract/document/8730884}}
+
+@article{Vishniakou2019Virtual-reality,
+	abstract = {Virtual reality combined with a spherical treadmill is used across species for studying neural circuits underlying navigation and learning. We developed an optical flow-based method for tracking treadmill ball motion in real time using a single high-resolution camera. Tracking accuracy and timing were determined using calibration data. Ball tracking was performed at 500 Hz and integrated with an open source game engine for virtual reality projection. The projection was updated at 120 Hz with a latency with respect to ball motion of 30 $\pm$ 8 ms. The system was tested for behavior with fruit flies. The application and source code are available at https://github.com/ivan-vishniakou/neural-circuits-vr. Optical flow-based tracking of treadmill motion is typically achieved using optical mice. The camera-based optical flow tracking system developed here is based on off-the-shelf components and offers control over the image acquisition and processing parameters. This results in flexibility with respect to tracking conditions -- such as ball surface texture, lighting conditions, or ball size -- as well as camera alignment and calibration. A fast system for rotational ball motion tracking suitable for virtual reality behavior with fruit flies was developed and characterized.},
+	author = {Ivan Vishniakou},
+	journal = {Journal of Neuroscience Methods},
+	pages = {108403},
+	title = {Virtual reality for animal navigation with camera-based optical flow tracking},
+	url = {https://www.sciencedirect.com/science/article/abs/pii/S0165027019302602},
+	volume = {327},
+	year = {2019},
+	Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/abs/pii/S0165027019302602}}
+
+@inproceedings{gaier2019weight,
+	abstract = {Not all neural network architectures are created equal, some perform much better than others for certain tasks. But how important are the weight parameters of a neural network compared to its architecture? In this work, we question to what extent neural network architectures alone, without learning any weight parameters, can encode solutions for a given task. We propose a search method for neural network architectures that can already perform a task without any explicit weight training. To evaluate these networks, we populate the connections with a single shared weight parameter sampled from a uniform random distribution, and measure the expected performance. We demonstrate that our method can find minimal neural network architectures that can perform several reinforcement learning tasks without weight training. On a supervised learning domain, we find network architectures that achieve much higher than chance accuracy on MNIST using random weights. Interactive version of this paper at https://weightagnostic.github.io/},
+	author = {Gaier, Adam and Ha, David},
+	booktitle = {Advances in Neural Information Processing Systems},
+	title = {Weight Agnostic Neural Networks},
+	url = {https://papers.nips.cc/paper/8777-weight-agnostic-neural-networks},
+	year = {2019},
+	Bdsk-Url-1 = {https://papers.nips.cc/paper/8777-weight-agnostic-neural-networks}}
+
+@inproceedings{gaier2019quality,
+	abstract = {The route to the solution of complex design problems often lies through intermediate "stepping stones" which bear little resemblance to the final solution. By greedily following the path of greatest fitness improvement, objective-based search overlooks and discards stepping stones which might be critical to solving the problem. Here, we hypothesize that Quality Diversity (QD) algorithms are a better way to generate stepping stones than objective-based search: by maintaining a large set of solutions which are of high-quality, but phenotypically different, these algorithms collect promising stepping stones while protecting them in their own "ecological niche". To demonstrate the capabilities of QD we revisit the challenge of recreating images produced by user-driven evolution, a classic challenge which spurred work in novelty search and illustrated the limits of objective-based search. We show that QD far outperforms objective-based search in matching user-evolved images. Further, our results suggest some intriguing possibilities for leveraging the diversity of solutions created by QD.},
+	author = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+	booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+	pages = {115--116},
+	title = {Are quality diversity algorithms better at generating stepping stones than objective-based search?},
+	url = {https://dl.acm.org/doi/10.1145/3319619.3321897},
+	year = {2019},
+	Bdsk-Url-1 = {https://dl.acm.org/doi/10.1145/3319619.3321897}}
+
+@inproceedings{hagg2019prediction,
+	abstract = {Surrogate models are used to reduce the burden of expensive-to-evaluate objective functions in optimization. By creating models which map genomes to objective values, these models can estimate the performance of unknown inputs, and so be used in place of expensive objective functions. Evolutionary techniques such as genetic programming or neuroevolution commonly alter the structure of the genome itself. A lack of consistency in the genotype is a fatal blow to data-driven modeling techniques: interpolation between points is impossible without a common input space. However, while the dimensionality of genotypes may differ across individuals, in many domains, such as controllers or classifiers, the dimensionality of the input and output remains constant. In this work we leverage this insight to embed differing neural networks into the same input space. To judge the difference between the behavior of two neural networks, we give them both the same input sequence, and examine the difference in output. This difference, the phenotypic distance, can then be used to situate these networks into a common input space, allowing us to produce surrogate models which can predict the performance of neural networks regardless of topology. In a robotic navigation task, we show that models trained using this phenotypic embedding perform as well or better as those trained on the weight values of a fixed topology neural network. We establish such phenotypic surrogate models as a promising and flexible approach which enables surrogate modeling even for representations that undergo structural changes.},
+	author = {Hagg, Alexander and Zaefferer, Martin and Stork, J{\"o}rg and Gaier, Adam},
+	booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+	pages = {1576--1582},
+	title = {Prediction of neural network performance by phenotypic modeling},
+	url = {https://dl.acm.org/doi/abs/10.1145/3319619.3326815},
+	year = {2019},
+	Bdsk-Url-1 = {https://dl.acm.org/doi/abs/10.1145/3319619.3326815}}
+
+@incollection{bhat2019_dx,
+	abstract = {In Sensor-based Fault Detection and Diagnosis (SFDD) methods, spatial and temporal dependencies among the sensor signals can be modeled to detect faults in the sensors, if the defined dependencies change over time. In this work, we model Granger causal relationships between pairs of sensor data streams to detect changes in their dependencies. We compare the method on simulated signals with the Pearson correlation, and show that the method elegantly handles noise and lags in the signals and provides appreciable dependency detection. We further evaluate the method using sensor data from a mobile robot by injecting both internal and external faults during operation of the robot. The results show that the method is able to detect changes in the system when faults are injected, but is also prone to detecting false positives. This suggests that this method can be used as a weak detection of faults, but other methods, such as the use of a structural model, are required to reliably detect and diagnose faults.},
+	address = {Klagenfurt, Austria},
+	author = {Bhat, Pooja and Thoduka, Santosh and Pl{\"o}ger, Paul G.},
+	booktitle = {30th International Workshop on Principles of Diagnosis (DX)},
+	title = {{A Dependency Detection Method for Sensor-based Fault Detection}},
+	url = {https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_28.pdf},
+	year = {2019},
+	Bdsk-Url-1 = {https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_28.pdf}}
+
+@incollection{mitrevski2019_dx,
+	abstract = {This paper presents a modification of the data-driven sensor-based fault detection and diagnosis (SFDD) algorithm for online robot monitoring. Our version of the algorithm uses a collection of generative models, in particular restricted Boltzmann machines, each of which represents the distribution of sliding window correlations between a pair of correlated measurements. We use such models in a residual generation scheme, where high residuals generate conflict sets that are then used in a subsequent diagnosis step. As a proof of concept, the framework is evaluated on a mobile logistics robot for the problem of recognising disconnected wheels, such that the evaluation demonstrates the feasibility of the framework (on the faulty data set, the models obtained $88.6\%$ precision and $75.6\%$ recall rates), but also shows that the monitoring results are influenced by the choice of distribution model and the model parameters as a whole.},
+	address = {Klagenfurt, Austria},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G.},
+	booktitle = {30th International Workshop on Principles of Diagnosis (DX)},
+	title = {{Data-Driven Robot Fault Detection and Diagnosis Using Generative Models: A Modified SFDD Algorithm}},
+	url = {https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_27.pdf},
+	year = {2019},
+	Bdsk-Url-1 = {https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_27.pdf}}
+
+@inproceedings{padalkar2019_robocup,
+	abstract = {This paper presents the approach of our team, b-it-bots, in the RoboCup@Work competition which resulted in us winning the World Championship in Sydney in 2019. We describe our current hardware, including modifications made to the KUKA youBot, the underlying software framework and components developed for navigation, manipulation, perception and task planning for scenarios in industrial environments. Our combined 2D and 3D approach for object recognition has improved robustness and performance compared to previous years, and our task planning framework has moved us away from large state machines for high-level control. Future work includes closing the perception-manipulation loop for more robust grasping. Our open-source repository is available at https://github.com/b-it-bots/mas_industrial_robotics.},
+	address = {Sydney, Australia},
+	author = {Padalkar, Abhishek and Wasil, Mohammad and Mahajan, Shweta and Kumar, Ramesh and Bakaraniya, Dharmin and Shirodkar, Raghuvir and Andradi, Heruka and Padmanabhan, Deepan and Wiesse, Carlo and Abdelrahman, Ahmed and Chavan, Sushant and Gurulingan, Naresh and Nair, Deebul and Thoduka, Santosh and Awaad, Iman and Schneider, Sven and Pl{\"o}ger, Paul G. and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the 23rd RoboCup International Symposium},
+	title = {{b-it-bots: Our Approach for Autonomous Robotics in Industrial Environments}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-030-35699-6_48},
+	year = {2019},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-030-35699-6_48}}
+
+@inproceedings{kramer2019_robocup,
+	abstract = {The use of natural language to indicate robot tasks is a convenient way to command robots. As a result, several models and approaches capable of understanding robot commands have been developed, which however complicates the choice of a suitable model for a given scenario. In this work, we present a comparative analysis and benchmarking of four natural language understanding models - Mbot, Rasa, LU4R, and ECG. We particularly evaluate the performance of the models to understand domestic service robot commands by recognizing the actions and any complementary information in them in three use cases: the RoboCup@Home General Purpose Service Robot (GPSR) category 1 contest, GPSR category 2, and hospital logistics in the context of the ROPOD project.},
+	address = {Sydney, Australia},
+	author = {Romero Kramer, Erick Jesus and Ortega S{\'a}inz, Argentina and Mitrevski, Alex and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the 23rd RoboCup International Symposium},
+	keywords = {natural language understanding, robot commands, comparative analysis, benchmarking},
+	title = {{Tell Your Robot What To Do: Evaluation of Natural Language Models for Robot Command Processing}},
+	url = {https://2019.robocup.org/downloads/program/KramerEtAl2019.pdf},
+	year = {2019},
+	Bdsk-Url-1 = {https://2019.robocup.org/downloads/program/KramerEtAl2019.pdf}}
+
+@inproceedings{mitrevski2019_robocup_2,
+	abstract = {When developing robot functionalities, finite state machines are commonly used due to their straightforward semantics and simple implementation. State machines are also a natural implementation choice when designing robot experiments, as they generally lead to reproducible program execution. In practice, the implementation of state machines can lead to significant code repetition and may necessitate unnecessary code interaction when reparameterisation is required. In this paper, we present a small Python library that allows state machines to be specified, configured, and dynamically created using a minimal domain-specific language. We illustrate the use of the library in three different use cases - scenario definition in the context of the RoboCup@Home competition, experiment design in the context of the ROPOD project, as well as specification transfer between robots.},
+	address = {Sydney, Australia},
+	author = {Mitrevski, Alex and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the 23rd RoboCup International Symposium, Finalist for the "Best Engineering Paper Award"},
+	keywords = {state machines, rapid prototyping, experiment design},
+	title = {{Reusable Specification of State Machines for Rapid Robot Functionality Prototyping}},
+	url = {https://2019.robocup.org/downloads/program/MitrevskiPlöger2019.pdf},
+	year = {2019},
+	Bdsk-Url-1 = {https://2019.robocup.org/downloads/program/MitrevskiPl%C3%B6ger2019.pdf}}
+
+@inproceedings{mitrevski2019_robocup_1,
+	abstract = {For robots acting - and failing - in everyday environments, a predictable behaviour representation is important so that it can be utilised for failure analysis, recovery, and subsequent improvement. Learning from demonstration combined with dynamic motion primitives is one commonly used technique for creating models that are easy to analyse and interpret; however, mobile manipulators complicate such models since they need the ability to synchronise arm and base motions for performing purposeful tasks. In this paper, we analyse dynamic motion primitives in the context of a mobile manipulator - a Toyota Human Support Robot (HSR)- and introduce a small extension of dynamic motion primitives that makes it possible to perform whole body motion with a mobile manipulator. We then present an extensive set of experiments in which our robot was grasping various everyday objects in a domestic environment, where a sequence of object detection, pose estimation, and manipulation was required for successfully completing the task. Our experiments demonstrate the feasibility of the proposed whole body motion framework for everyday object manipulation, but also illustrate the necessity for highly adaptive manipulation strategies that make better use of a robot's perceptual capabilities.},
+	address = {Sydney, Australia},
+	author = {Mitrevski, Alex and Padalkar, Abhishek and Nguyen, Minh and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the 23rd RoboCup International Symposium},
+	keywords = {everyday object manipulation, learning from demonstration, dynamic motion primitives, whole body motion, toyota HSR},
+	title = {{"Lucy, Take the Noodle Box!": Domestic Object Manipulation Using Movement Primitives and Whole Body Motion}},
+	url = {https://2019.robocup.org/downloads/program/MitrevskiEtAl2019.pdf},
+	year = {2019},
+	Bdsk-Url-1 = {https://2019.robocup.org/downloads/program/MitrevskiEtAl2019.pdf}}
+
+@inproceedings{Naik2019,
+	abstract = {In this work a graph-based, semantic mapping approach for indoor robotics applications is presented, which is extending OpenStreetMap (OSM) with robotic-specific, semantic, topological, and geometrical information. Models for common indoor structures (such as walls, doors, corridors, elevators, etc.) are introduced. The architectural principles support composition with additional domain and application specific knowledge. As an example, a model for an area is introduced and it is explained how this can be used in navigation. A key advantages of the proposed graph-based map representation is that it allows seamless transitions between maps, e.g., indoor and outdoor maps by exploiting the hierarchical structure of the graphs. Finally, the compatibility of the approach with existing, grid-based motion planning algorithms is shown.},
+	author = {Naik, Lakshadeep and Blumenthal, Sebastian and Huebel, Nico and Bruyninckx, Herman and Prassler, Erwin},
+	booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+	month = {May},
+	pages = {3839-3845},
+	title = {Semantic mapping extension for OpenStreetMap applied to indoor robot navigation},
+	url = {https://ieeexplore.ieee.org/document/8793641},
+	year = {2019},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/8793641}}
+
+@inproceedings{ravichandran2018_iros,
+	abstract = {Robots generate large amounts of data which need to be stored in a meaningful way such that they can be used and interpreted later. Such data can be written into log files, but these files lack the querying features and scaling capabilities of modern databases - especially when dealing with multi-robot systems, where the trade-off between availability and consistency has to be resolved. However, there is a plethora of existing databases, each with its own set of features, but none designed with robotic use cases in mind. This work presents three main contributions: (a) structures for benchmarking scenarios with a focus on networked multi-robot architectures, (b) an extensible workbench for benchmarking databases for different scenarios that makes use of Docker containers and (c) a comparison of existing databases given a set of multi-robot use cases to showcase the usage of the framework. The comparison gives indications for choosing an appropriate database.},
+	author = {Ravichandran, R. and Huebel, N. and Blumenthal, S. and Prassler, E.},
+	booktitle = {Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018)},
+	title = {{A Workbench for Quantitative Comparison of Databases in Multi-Robot Applications}},
+	url = {https://ieeexplore.ieee.org/document/8594241},
+	year = {2018},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/8594241}}
+
+@inproceedings{lima2018_icaps,
+	abstract = {In this paper we propose an architecture to integrate classical planning and real autonomous mobile robots. We start by providing with a high level description of all necessary components to set the goals, generate plans and execute them on real robots and monitor the outcome of their actions. At the core of our method and to deal with execution issues we code the agent actions with automatas. We prove the flexibility of the system by testing on two different domains: industrial (Basic Transportation Test) and domestic (General Purpose Service Robot) in the context of the international RoboCup competition. Additionally we benchmark the scalability of the planning system in two domains on a set of planning problems with increasing complexity. The proposed framework is open source and can be easily extended.},
+	author = {Lima, Oscar and Ventura, Rodrigo and Awaad, Iman},
+	booktitle = {Planning and Robotics (PlanRob) Workshop at the 28th International Conference on Automated Planning and Scheduling (ICAPS)},
+	title = {Integrating Classical Planning and Real Robots in Industrial and Service Robotics Domains},
+	url = {https://welcome.isr.tecnico.ulisboa.pt/publications/integrating-classical-planning-and-real-robots-in-industrial-and-service-robotics-domains/},
+	year = {2018},
+	Bdsk-Url-1 = {https://welcome.isr.tecnico.ulisboa.pt/publications/integrating-classical-planning-and-real-robots-in-industrial-and-service-robotics-domains/}}
+
+@misc{HuebelNicoTobias2018CiUO,
+	author = {Huebel, Nico and Blumenthal, Sebastian and Naik, Lakshadeep and Bruyninckx, Herman},
+	title = {Challenges in Using OSM for Robotic Applications},
+	url = {https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS1995272&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&lang=en_US&fromSitemap=1},
+	year = {2018},
+	Bdsk-Url-1 = {https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS1995272&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&lang=en_US&fromSitemap=1}}
+
+@inproceedings{Hochgeschwender2017a,
+	abstract = {Robotic software development frameworks lack a possibility to present,validate and generate qualitative complex human robot interactions and robot de-velopers are mostly left with unclear informal project specifications. The devel-opment of a human-robot interaction is a complex task and involves different ex-perts, for example, the need for human-robot interaction (HRI) specialists, whoknow about the psychological impact of the robot's movements during the in-teraction in order to design the best possible user experience. In this paper, wepresent a new project that aims to provide exactly this. Focusing on the interac-tion flow and movements of a robot for human-robot interactions we aim to pro-vide a set of modelling languages for human-robot interaction which serves as acommon, more formal, discussion point between the different stakeholders. Thisis a new project and the main topics of this publication are the scenario descrip-tion, the analysis of the different stakeholders, our experience as robot applicationdevelopers for our partner, as well as the future work we plan to achieve.},
+	author = {Gary Cornelius and Nico Hochgeschwender and Holger Voos},
+	booktitle = {Proceedings of the 4th International Workshop on Model-driven Robot Software Engineering},
+	location = {Marburg, Germany},
+	note = {To Appear},
+	publisher = {ACM},
+	title = {Model-Driven Interaction Design for Social Robots},
+	url = {https://orbilu.uni.lu/handle/10993/32925},
+	year = {2017},
+	Bdsk-Url-1 = {https://orbilu.uni.lu/handle/10993/32925}}
+
+@inproceedings{Diaz-Posada2018Automatic-Close,
+	abstract = {Robot programming is still an expert dependent and not automatically optimized task. In order to make this process more automatic and intuitive for the end-user, this paper presents a novel approach to determine a close-optimal workpiece pose for different robotic manufacturing processes like welding and milling. The approach is based on a model-based interpretation of the Product, Process, and Resource (PPR) components defined in an internally developed Computer-Aided Manufacturing (CAM) software. After the interpretation addressed to simplify the path planning, an algorithm uses sample-based motion planning techniques and optimization algorithms, in order to find optimal motions in reaction to infeasible states of the robot (i.e. maximum joint limits and reachability) and a close-optimal workpiece pose. The optimized path planning is achieved by exploring an interpreted Configuration Space (C-space) using a Degree of Freedom (DoF) of the Robot Manufacturing Processes (RMP) and by interpreting its constraints. Simulation results are presented for robotic welding and milling task by optimizing welding orientations and robot stiffness respectively in the path planning and the joint movements and gravity cost criteria in the workpiece positioning. Optimization of these criteria could be used in RMP to address improvement of the process quality.},
+	author = {Diaz Posada, Julian and Mukherjee, Poulastya and Verl, Alexander},
+	booktitle = {Proceedings of the 1st CIRP Conference on Manufacturing Systems (CIRP CMS 2018)},
+	month = {May},
+	title = {Automatic Close-optimal Workpiece Positioning for Robotic Manufacturing.},
+	url = {https://www.sciencedirect.com/science/article/pii/S2212827118302993},
+	year = {2018},
+	Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/pii/S2212827118302993}}
+
+@inproceedings{Gaier2018Data-efficient-1,
+	abstract = {Surrogate-assistance approaches have long been used in computationally expensive domains to improve the data-efficiency of optimization algorithms. Neuroevolution, however, has so far resisted the application of these techniques because it requires the surrogate model to make fitness predictions based on variable topologies, instead of a vector of parameters. Our main insight is that we can sidestep this problem by using kernel-based surrogate models, which require only the definition of a distance measure between individuals. Our second insight is that the well-established Neuroevolution of Augmenting Topologies (NEAT) algorithm provides a computationally efficient distance measure between dissimilar networks in the form of "compatibility distance", initially designed to maintain topological diversity. Combining these two ideas, we introduce a surrogate-assisted neuroevolution algorithm that combines NEAT and a surrogate model built using a compatibility distance kernel. We demonstrate the data-efficiency of this new algorithm on the low dimensional cart-pole swing-up problem, as well as the higher dimensional half-cheetah running task. In both tasks the surrogate-assisted variant achieves the same or better results with several times fewer function evaluations as the original NEAT.},
+	author = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+	booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+	organization = {ACM},
+	title = {Data-efficient Neuroevolution with Kernel-Based Surrogate Models},
+	url = {https://dl.acm.org/doi/10.1145/3205455.3205510},
+	year = {2018},
+	Bdsk-Url-1 = {https://dl.acm.org/doi/10.1145/3205455.3205510}}
+
+@article{Gaier2018Data-Efficient-,
+	abstract = {Design optimization techniques are often used at the beginning of the design process to explore the space of possible designs. In these domains illumination algorithms, such as MAP-Elites, are promising alternatives to classic optimization algorithms because they produce diverse, high-quality solutions in a single run, instead of only a single near-optimal solution. Unfortunately, these algorithms currently require a large number of function evaluations, limiting their applicability. In this article, we introduce a new illumination algorithm, Surrogate-Assisted Illumination SAIL, that leverages surrogate modeling techniques to create a map of the design space according to user-defined features while minimizing the number of fitness evaluations. On a two-dimensional airfoil optimization problem, SAIL produces hundreds of diverse but high-performing designs with several orders of magnitude fewer evaluations than MAP-Elites or CMA-ES. We demonstrate that SAIL is also capable of producing maps of high-performing designs in realistic three-dimensional aerodynamic tasks with an accurate flow simulation. Data-efficient design exploration with SAIL can help designers understand what is possible, beyond what is optimal, by considering more than pure objective-based optimization.},
+	author = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+	journal = {Evolutionary Computation},
+	publisher = {MIT Press},
+	title = {Data-Efficient Design Exploration through Surrogate-Assisted Illumination},
+	url = {https://dl.acm.org/doi/10.1162/evco_a_00231},
+	year = {2018},
+	Bdsk-Url-1 = {https://dl.acm.org/doi/10.1162/evco_a_00231}}
+
+@incollection{youssef2018,
+	abstract = {The increasing complexity of tasks that are required to be executed by robots demands higher reliability of robotic platforms. For this, it is crucial for robot developers to consider fault diagnosis. In this study, a general non-intrusive fault diagnosis system for robotic platforms is proposed. A mini-PC is non-intrusively attached to a robot that is used to detect and diagnose faults. The health data and diagnosis produced by the mini-PC is then standardized and transmitted to a remote-PC. A storage device is also attached to the mini-PC for data logging of health data in case of loss of communication with the remote-PC. In this study, a hybrid fault diagnosis method is compared to consistency-based diagnosis (CBD), and CBD is selected to be deployed on the system. The proposed system is modular and can be deployed on different robotic platforms with minimum setup.},
+	address = {Warsaw, Poland},
+	author = {Youssef, Y. and Pl{\"o}ger, P. G.},
+	booktitle = {29th International Workshop on Principles of Diagnosis (DX)},
+	title = {{A Non-intrusive Fault Diagnosis System For Robotic Platforms}},
+	url = {https://www.semanticscholar.org/paper/A-Non-intrusive-Fault-Diagnosis-System-for-Robotic-Youssef-Pl%C3%B6ger/0cb9ffe14a3fe01b59dd78c322258763f08096ed},
+	year = {2018},
+	Bdsk-Url-1 = {https://www.semanticscholar.org/paper/A-Non-intrusive-Fault-Diagnosis-System-for-Robotic-Youssef-Pl%C3%B6ger/0cb9ffe14a3fe01b59dd78c322258763f08096ed}}
+
+@incollection{mitrevski2018_ropod2,
+	abstract = {Robot deployment in realistic dynamic environments is a challenging problem despite the fact that robots can be quite skilled at a large number of isolated tasks. One reason for this is that robots are rarely equipped with powerful introspection capabilities, which means that they cannot always deal with failures in a reasonable manner; in addition, manual diagnosis is often a tedious task that requires technicians to have a considerable set of robotics skills. In this paper, we discuss our ongoing efforts in the context of the ROPOD project to address some of these problems. In particular, we (i) present our early efforts at developing a robotic black box and consider some factors that complicate its design, (ii) explain our component and system monitoring concept, and (iii) describe the necessity for remote monitoring and experimentation as well as our initial attempts at performing those. Our preliminary work opens a range of promising directions for making robots more usable and reliable in practice not only in the context of ROPOD, but in a more general sense as well.},
+	address = {Warsaw, Poland},
+	author = {Mitrevski, Alex and Thoduka, Santosh and Ortega S{\'a}inz, Argentina and Sch{\"o}bel, Maximilian and Nagel, Patrick and Pl{\"o}ger, Paul G. and Prassler, Erwin},
+	booktitle = {29th International Workshop on Principles of Diagnosis (DX)},
+	title = {{Deploying Robots in Everyday Environments: Towards Dependable and Practical Robotic Systems}},
+	url = {https://www.semanticscholar.org/paper/Deploying-Robots-in-Everyday-Environments-:-Towards-Mitrevski-Thoduka/9efabc888577620494ed80821d1455bf7d244be0?p2df},
+	year = {2018},
+	Bdsk-Url-1 = {https://www.semanticscholar.org/paper/Deploying-Robots-in-Everyday-Environments-:-Towards-Mitrevski-Thoduka/9efabc888577620494ed80821d1455bf7d244be0?p2df}}
+
+@inproceedings{mitrevski2018_ropod1,
+	abstract = {Robot deployment in realistic environments is challenging despite the fact that robots can be quite skilled at a large number of isolated tasks. One reason for this is that robots are rarely equipped with powerful introspection capabilities, which means that they cannot always deal with failures in an acceptable manner; in addition, manual diagnosis is often a tedious task that requires technicians to have a considerable set of robotics skills. In this paper, we discuss our ongoing efforts to address some of these problems. In particular, we (i) present our early efforts at developing a robotic black box and consider some factors that complicate its design, (ii) explain our component and system monitoring concept, and (iii) describe the necessity for remote monitoring and experimentation as well as our initial attempts at performing those. Our preliminary work opens a range of promising directions for making robots more usable and reliable in practice.},
+	author = {Mitrevski, Alex and Thoduka, Santosh and Ortega S{\'a}inz, Argentina and Sch{\"o}bel, Maximilian and Nagel, Patrick and Pl{\"o}ger, Paul G. and Prassler, Erwin},
+	booktitle = {Extreme Robotics, 29th International Scientific and Technological Conference, June 7-8, RTC, Saint Petersburg, Invited paper},
+	note = {Invited paper},
+	title = {{Practical Robot Deployment: Towards an Increased Dependability of Robotic Systems}},
+	year = {2018}}
+
+@inproceedings{GaierAsterothMouret2017_2,
+	abstract = {The MAP-Elites algorithm produces a set of high-performing solutions that vary according to features defined by the user. This technique to 'illuminate' the problem space through the lens of chosen features has the potential to be a powerful tool for exploring design spaces, but is limited by the need for numerous evaluations. The Surrogate-Assisted Illumination (SAIL) algorithm, introduced here, integrates approximative models and intelligent sampling of the objective function to minimize the number of evaluations required by MAP-Elites. The ability of SAIL to efficiently produce both accurate models and diverse high-performing solutions is illustrated on a 2D airfoil design problem. The search space is divided into bins, each holding a design with a different combination of features. In each bin SAIL produces a better performing solution than MAP-Elites, and requires several orders of magnitude fewer evaluations. The CMA-ES algorithm was used to produce an optimal design in each bin: with the same number of evaluations required by CMA-ES to find a near-optimal solution in a single bin, SAIL finds solutions of similar quality in every bin.},
+	author = {Gaier, A. and Asteroth, A. and Mouret, J.},
+	booktitle = {GECCO '17: Proceedings of the Genetic and Evolutionary Computation Conference. Berlin, Germany, July 15-19, 2017},
+	pages = {99 -- 106},
+	title = {Data-Efficient Exploration, Optimization, and Modeling of Diverse Designs through Surrogate-Assisted Illumination},
+	url = {https://dl.acm.org/doi/10.1145/3071178.3071282},
+	year = {2017},
+	Bdsk-Url-1 = {https://dl.acm.org/doi/10.1145/3071178.3071282}}
+
+@inproceedings{GaierAsterothMouret2017_1,
+	abstract = {A new method for design space exploration and optimization, Surrogate-Assisted Illumination (SAIL), is presented. Inspired by robotics techniques designed to produce diverse repertoires of behaviors for use in damage recovery, SAIL produces diverse designs that vary according to features specified by the designer. By producing high-performing designs with varied combinations of user-defined features a map of the design space is created. This map illuminates the relationship between the chosen features and performance, and can aid designers in identifying promising design concepts. SAIL is designed for use with compu-tationally expensive design problems, such as fluid or structural dynamics, and integrates approximative models and intelligent sampling of the objective function to minimize the number of function evaluations required. On a 2D airfoil optimization problem SAIL is shown to produce hundreds of diverse designs which perform competitively with those found by state-of-the-art black box optimization. Its capabilities are further illustrated in a more expensive 3D aerodynamic optimization task.},
+	author = {Gaier, A. and Asteroth, A. and Mouret, J.},
+	booktitle = {18th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference, AIAA AVIATION Forum. 5-9 June 2017, Denver, CO, USA},
+	doi = {10.2514/6.2017-3330},
+	title = {Aerodynamic Design Exploration through Surrogate-Assisted Illumination},
+	url = {https://hal.inria.fr/hal-01518786},
+	year = {2017},
+	Bdsk-Url-1 = {https://hal.inria.fr/hal-01518786},
+	Bdsk-Url-2 = {https://doi.org/10.2514/6.2017-3330}}
+
+@incollection{Youssef2017,
+	address = {Brescia, Italy},
+	author = {Youssef, Y. and Hebbal, C. and Drak, A. and Pl{\"o}ger, P. G. and Kuestenmacher, A.},
+	booktitle = {28th International Workshop on Principles of Diagnosis (DX)},
+	title = {Model-Based Remote Diagnosis of Motion Faults on an Omnidirectional Robot via Structural Analysis},
+	year = {2017}}
+
+@inbook{Herman2016Learning-High-L,
+	abstract = {With an increasing number of robots acting in populated environments, there is an emerging necessity for programming techniques that allow for efficient adjustment of the robot's behavior to new environments or tasks. A promising approach for teaching robots a certain behavior is Inverse Reinforcement Learning (IRL), which estimates the underlying reward function of a Markov Decision Process (MDP) from observed behavior of an expert. Recently, an approach called Simultaneous Estimation of Rewards and Dynamics (SERD) has been proposed, which extends IRL by simultaneously estimating the dynamics. The objective of this work is to compare classical IRL algorithms with SERD for learning high level navigation strategies in a realistic hallway navigation scenario solely from human expert demonstrations. We show that the theoretical advantages of SERD also pay off in practice by estimating better models of the dynamics and explaining the expert's demonstrations more accurately.},
+	author = {Herman, Michael and Gindele, Tobias and Wagner, Joerg and Schmitt, Felix and Quignon, Christophe and Burgard, Wolfram},
+	booktitle = {AI 2016: Advances in Artificial Intelligence: 29th Australasian Joint Conference, Hobart, TAS, Australia, December 5-8, 2016, Proceedings},
+	pages = {525--534},
+	title = {Learning High-Level Navigation Strategies via Inverse Reinforcement Learning: A Comparative Analysis},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-50127-7_45},
+	year = {2016},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-50127-7_45}}
+
+@article{Ghallab2017Planning-and-Ro,
+	address = {Dagstuhl, Germany},
+	annote = {Keywords: adjustable autonomy, artificial intelligence, automated planning and scheduling, goal reasoning, human-robot interaction, plan execution, robotics},
+	author = {Malik Ghallab and Nick Hawes and Daniele Magazzeni and Brian C. Williams and Andrea Orlandini},
+	date-added = {2017-06-19 07:57:55 +0000},
+	date-modified = {2017-06-19 07:58:06 +0000},
+	doi = {10.4230/DagRep.7.1.32},
+	editor = {Malik Ghallab and Nick Hawes and Daniele Magazzeni and Brian C. Williams and Andrea Orlandini},
+	issn = {2192-5283},
+	journal = {Dagstuhl Reports},
+	number = {1},
+	pages = {32--73},
+	publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+	title = {{Planning and Robotics (Dagstuhl Seminar 17031)}},
+	url = {http://drops.dagstuhl.de/opus/volltexte/2017/7245},
+	urn = {urn:nbn:de:0030-drops-72451},
+	volume = {7},
+	year = {2017},
+	Bdsk-Url-1 = {http://drops.dagstuhl.de/opus/volltexte/2017/7245},
+	Bdsk-Url-2 = {http://dx.doi.org/10.4230/DagRep.7.1.32}}
+
+@inproceedings{Mitrevski2017,
+	abstract = {While executing actions, service robots may experience external faults because of insufficient knowledge about the actions' preconditions. The possibility of encountering such faults can be minimised if symbolic and geometric precondition models are combined into a representation that specifies how and where actions should be executed. This work investigates the problem of learning such action execution models and the manner in which those models can be generalised. In particular, we develop a template-based representation of execution models, which we call $\delta$ models, and describe how symbolic template representations and geometric success probability distributions can be combined for generalising the templates beyond the problem instances on which they are created. Our experimental analysis, which is performed with two physical robot platforms, shows that $\delta$ models can describe execution-specific knowledge reliably, thus serving as a viable model for avoiding the occurrence of external faults.},
+	author = {Mitrevski, Alex and Kuestenmacher, Anastassia and Thoduka, Santosh and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the 2017 {IEEE} International Conference on Robotics and Automation (ICRA)},
+	pages = {4256--4263},
+	title = {Improving the Reliability of Service Robots in the Presence of External Faults by Learning Action Execution Models},
+	url = {https://ieeexplore.ieee.org/document/7989489},
+	year = {2017},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/7989489}}
+
+@incollection{drak2016,
+	abstract = {Autonomous mobile robots comprise of several hardware and software components. These components interact with each other continuously in order to achieve autonomity. Due to the complexity of such a task, a monumental responsibility is bestowed upon the developer to make sure that the robot is always operable. Hence, some means of detecting faults should be readily available. In this work, the aforementioned fault-detection system is a robotic black box (RBB) attached to the robot which acquires all the relevant measurements of the system that are needed to achieve a fault-free robot. Due to limited computational and memory resources on-board the RBB, a distributed diagnosis is proposed. That is, the fault diagnosis task (detection and isolation) is shared among an on-board component (the black box) and an off-board component (an external computer). The distribution of the diagnosis task allows for a non-intrusive method of detecting and diagnosing faults, in addition to the ability of remotely diagnosing a robot and potentially issuing a repair command. In addition to decomposing the diagnosis task and allowing remote diagnosability of the robot, another key feature of this work is the addition of expert human knowledge to aid in the fault detection process.},
+	author = {Drak, A. and Youssef, Y. and Pl{\"o}ger, P. G. and Kuestenmacher, A.},
+	booktitle = {27th International Workshop on Principles of Diagnosis (DX)},
+	title = {{Remote Fault Diagnosis of Robots Using a Robotic Black Box}},
+	url = {http://13.7.9.163/papers/DX-2016_9.pdf},
+	year = {2016},
+	Bdsk-Url-1 = {http://13.7.9.163/papers/DX-2016_9.pdf}}
+
+@article{Valdenegro-Toro2016Histograms-of-S,
+	abstract = {Robust text detection and recognition in arbitrarily distributed, unrestricted images is a difficult problem, e.g. when interpreting traffic panels outdoors during autonomous driving. Most previous work in text detection considers only a single script, usually Latin, and it is not able to detect text with multiple scripts. Our contribution combines an established technique -Maximum Stable Extremal Regions-with a histogram of stroke width (HSW) feature and a Support Vector Machine classifier. We combined characters into groups by raycasting and merged aligned groups into lines of text that can also be verified by using the HSW. We evaluated our detection pipeline on our own dataset of road scenes from Autobahn (German Highways), and show how the character classifier stage can be trained with one script and be successfully tested on a different one. While precision and recall match to state of the art solution. A unique characteristic of the HSW feature is that it can learn and detect multiple scripts, which we believe can yield script independence.},
+	author = {Valdenegro-Toro, Matias and Pl{\"o}ger, Paul and Eickeler, Stefan and Konya, Iuliu},
+	journal = {IFAC-PapersOnLine},
+	number = {15},
+	pages = {100--107},
+	publisher = {Elsevier},
+	title = {Histograms of Stroke Widths for Multi-script Text Detection and Verification in Road Scenes},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405896316309922},
+	volume = {49},
+	year = {2016},
+	Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/pii/S2405896316309922}}
+
+@inproceedings{Pozzi2016Grasp-Quality-E,
+	abstract = {Underactuated and synergy-driven hands are gaining attention in the grasping community mainly due to their simple kinematics, intrinsic compliance and versatility for grasping objects even in non structured scenarios. The evaluation of the grasping capabilities of such hands is a challenging task. This paper revisits some traditional quality measures developed for multi-fingered, fully actuated hands, and applies them to the case of underactuated hands. The extension of quality metrics for synergy-driven hands for the case of underactuated grasping is also presented. The performance of both types of measures is evaluated with simulated examples, concluding with a comparative discussion of their main features.},
+	author = {Pozzi, M. and Sundaram, A. M. and Malvezzi, M. and Pratichizzo, D. and Roa, M. A.},
+	booktitle = {Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	title = {Grasp Quality Evaluation in Underactuated Robotic Hands},
+	url = {https://ieeexplore.ieee.org/document/7759307},
+	year = {2016},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/7759307}}
+
+@inproceedings{Kuestenmacher2016,
+	abstract = {The work presented in this paper focuses on the comparison of well-known and new techniques for designing robust fault diagnosis schemes in the robot domain. Correctly identifying and handling faults is an inherent characteristic that all autonomous mobile agents should possess, as none of the hardware and software parts used by robots are perfect; instead, they are often error-prone and able to introduce serious problems that might endanger both robots and their environment. Based on a study of literature covering model-based fault-diagnosis algorithms, we selected four of these methods based on both linear and non-linear models. We analyzed and implemented them in a mathematical model, representing a kinematics of four-wheel-OMNI mobile robot. Numerical examples were used to test the ability of three of the described algorithms to detect and identify abnormal behavior and to optimise the model parameters for the given training data. The final goal was to point out the strengths of each algorithm and to figure out which method would best suit the demands of fault diagnosis for a particular mobile robot.},
+	author = {Kuestenmacher, Anastassia and Pl{\"o}ger, Paul G.},
+	booktitle = {9th IFAC Symposium on Intelligent Autonomous Vehicles - IAV 2016},
+	date-added = {2016-08-29 19:00:29 +0000},
+	date-modified = {2016-08-29 19:03:42 +0000},
+	title = {Model-Based Fault Diagnosis Techniques for Mobile Robots},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405896316308849},
+	year = {2016},
+	Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/pii/S2405896316308849}}
+
+@inproceedings{AguilarIPIN2013,
+	abstract = {A person has to deal with large and unknown scenarios, for example a client searching for a expositor in a trade fair or a passenger looking for a gate in an airport. Due to the fact that position awareness represents a great advantage for people, a navigation system implemented for a commercial smartphone can help the user to save time and money. In this work a navigation example application able to localize and provide directions to a desired destination in an indoor environment is presented and evaluated. The position of the user is calculated with information from the smartphone builtin sensors, WiFi adapter and floor-plan layout of the indoor environment. A commercial smartphone is used as the platform to implement the example application, due to it's hardware features, computational power and the graphic user interface available for the users. Evaluations verified that room accuracy is achieved for robust localization by using the proposed technologies and algorithms. The used optimal sensor fusion filter for different sources of information and the easy to deploy infrastructure in a new environment show promise for mobile indoor navigation systems.},
+	address = {Montbeliard - Belfort, France},
+	author = {Aguilar, J.C. and Hinkenjann, A. and Ploeger, P. and Maiero, J.},
+	booktitle = {Proceedings of the International Conference on Indoor Positioning and Indoor Navigation (IPIN)},
+	date-added = {2014-09-15 10:31:34 +0000},
+	date-modified = {2014-09-15 10:32:19 +0000},
+	keywords = {Indoor localization, indoor navigation, WiFi localization, dead reckoning, map-matching, sensor fusion, bayes filters},
+	month = {October},
+	title = {Robust indoor localization using optimal fusion filter for sensors and map layout information},
+	year = {2013}}
+
+@inproceedings{AguilarIPIN2014,
+	abstract = {Position awareness in unknown and large indoor spaces represents a great advantage for people, everyday pedes- trians have to search for specific places, products and services. Therefore a localization system can greatly improve location aware applications for users and venue managers, which can obtain statistical information from users behavior by tracking their location over time for marketing or organizational purposes. In this work a positioning solution able to localize the user based on data measured with a mobile device is described and evaluated. The position estimate uses data from smartphone built-in sensors, WiFi (Wireless Fidelity), BLE (Bluetooth Low Energy) adapters and map information of the indoor environment (e.g. walls and obstacles). A probability map derived from statistical information of the users tracked location over a period of time in the test scenario is generated and embedded in a map graph, in order to correct and combine the position estimates under a Bayesian representation. PDR (Pedestrian Dead Reckoning), beacon-based Weighted Centroid position estimates, map infor- mation obtained from building OpenStreetMap XML representa- tion and probability map users path density are combined using a Particle Filter and implemented in a smartphone application. Based on evaluations, this work verifies that the use of smartphone hardware components, map data and its semantic in- formation represented in the form of a OpenStreetMap structure provide room accuracy and a scalable indoor positioning solution. The proposed and evaluated deployed beacons distribution (1 beacon per each 100 squared meters area), the Particle Filter algorithm used to combine various sources of information, its radio beacon-based observation, probability particle weighting process and the mapping approach allowing the inclusion of new indoor environments knowledge show a promising approach for an extensible indoor navigation system.},
+	address = {Busan, South Korea},
+	author = {Aguilar, J.C. and Ploeger, P. and Hinkenjann, A. and Maiero, J. and Flores, M. and Ramos, A.},
+	booktitle = {Proceedings of the International Conference on Indoor Positioning and Indoor Navigation (IPIN)},
+	date-added = {2014-09-15 10:33:35 +0000},
+	date-modified = {2014-09-15 10:34:20 +0000},
+	journal = {International Conference on Indoor Positioning and Indoor Navigation (IPIN)},
+	keywords = {Indoor positioning, indoor navigation, WiFi localization, Bluetooth localization, beacons distribution, dead reckoning, map-matching, sensor fusion.},
+	month = {October},
+	title = {Pedestrian Indoor Positioning Using Smartphone Multi-sensing, Radio Beacons, User Positions Probability Map and IndoorOSM Floor Plan Representation},
+	year = {2014}}
+
+@inproceedings{Akhtar2011,
+	address = {Tallinn, Estonia},
+	author = {Akhtar, Naveed and Fueller, Matthias and Henne, Timo and Kahl, Bjoern},
+	booktitle = {International Conference on Advanced Robotics},
+	keywords = {R\&D1 Publication of Naveed and Matthias},
+	mendeley-tags = {R\&D1 Publication of Naveed and Matthias},
+	title = {{Towards iterative learning of autonomous robots using ILP}},
+	year = {2011}}
+
+@inproceedings{Akhtar2011a,
+	address = {Murnau, Germany},
+	author = {Akhtar, Naveed and Kuestenmacher, Anastassia},
+	booktitle = {International Workshop on Principles of Diagnosis DX'11},
+	keywords = {R\&D2 Publication of Naveed},
+	mendeley-tags = {R\&D2 Publication of Naveed},
+	title = {{Using Naive Physics for unknown external faults in robotics}},
+	year = {2011}}
+
+@incollection{raey,
+	author = {Alexandrov, Sergey and Herpers, Rainer},
+	booktitle = {RoboCup 2013: Robot World Cup XVII},
+	doi = {10.1007/978-3-662-44468-9_39},
+	editor = {Behnke, Sven and Veloso, Manuela and Visser, Arnoud and Xiong, Rong},
+	isbn = {978-3-662-44467-2},
+	language = {English},
+	pages = {444-455},
+	publisher = {Springer Berlin Heidelberg},
+	series = {Lecture Notes in Computer Science},
+	title = {Evaluation of Recent Approaches to Visual Odometry from RGB-D Images},
+	url = {http://dx.doi.org/10.1007/978-3-662-44468-9_39},
+	volume = {8371},
+	year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-662-44468-9_39}}
+
+@inproceedings{AlvarezRuiz2013,
+	address = {Mexico City, Mexico},
+	author = {Alvarez Ruiz, Jos\'{e} Antonio and Ploeger, Paul G. and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the 16th RoboCup International Symposium},
+	keywords = {active vision,adaptive aperture control,auto-,auto-focus,domestic robot,pan-tilt,scene text recognition,zoom},
+	title = {{Active Scene Text Recognition for a Domestic Service Robot}},
+	url = {http://link.springer.com/chapter/10.1007/978-3-642-39250-4\_23},
+	year = {2012},
+	Bdsk-Url-1 = {http://link.springer.com/chapter/10.1007/978-3-642-39250-4%5C_23}}
+
+@inproceedings{Awaad2008A-Software-SIMPAR,
+	author = {Awaad, Iman and Hartanto, Ronny and Le{\'{o}}n, Beatriz and Pl{\"{o}}ger, Paul{-}Gerhard},
+	booktitle = {Simulation, Modeling, and Programming for Autonomous Robots, First International Conference, {SIMPAR} 2008, Venice, Italy, November 3-6, 2008. Proceedings},
+	date-added = {2015-03-31 08:00:04 +0000},
+	date-modified = {2015-03-31 08:00:42 +0000},
+	doi = {10.1007/978-3-540-89076-8_13},
+	pages = {99--110},
+	title = {A Software System for Robotic Learning by Experimentation},
+	year = {2008},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-540-89076-8_13}}
+
+@inproceedings{Awaad2008A-Software-Syst,
+	author = {Awaad, Iman and Hartanto, Ronny and Leon, Beatriz and Ploeger, Paul},
+	booktitle = {Workshop on Robot Simulators: Available software, scientific applications and future at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-03-31 07:50:11 +0000},
+	keywords = {robotics, simulation, software architecture},
+	title = {A Software System for Robotic Learning by Experimentation},
+	year = {2008}}
+
+@article{Awaad2015The-role-of-fun,
+	author = {Awaad, Iman and Kraetzschmar, Gerhard K. and Hertzberg, Joachim},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-10-02 09:16:37 +0000},
+	doi = {10.1007/s12369-015-0281-3},
+	journal = {International Journal of Social Robotics},
+	month = {March},
+	number = {4},
+	pages = {421--438},
+	timestamp = {2015.03.27},
+	title = {The role of functional affordances in socializing robots},
+	volume = {7},
+	year = {2015},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s12369-015-0281-3}}
+
+@conference{Awaad2014Challenges-in-f,
+	annote = {(Submitted)},
+	author = {Awaad, Iman and Kraetzschmar, Gerhard K. and Hertzberg, Joachim},
+	booktitle = {Planning and Robotics (PlanRob) Workshop at the 24th International Conference on Automated Planning and Scheduling (ICAPS)},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-03-31 07:50:11 +0000},
+	keywords = {Affordance-based planning, robotics, me},
+	title = {Challenges in finding ways to get the job done},
+	year = {2014}}
+
+@inproceedings{Awaad2014Finding-Ways-to,
+	annote = {(To Be Published)},
+	author = {Awaad, Iman and Kraetzschmar, Gerhard K. and Hertzberg, Joachim},
+	booktitle = {Proceedings of the 24th International Conference on Planning and Scheduling (ICAPS), Robotics Track},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-09-16 09:38:09 +0000},
+	keywords = {me},
+	title = {Finding Ways to Get the Job Done: An Affordance-based Approach},
+	year = {2014}}
+
+@conference{Awaad2013Affordance-Base,
+	author = {Awaad, Iman and Kraetzschmar, Gerhard K. and Hertzberg, Joachim},
+	booktitle = {Planning and Robotics (PlanRob) Workshop at the 23rd International Conference on Automated Planning and Scheduling (ICAPS)},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-03-31 07:50:11 +0000},
+	keywords = {Affordance-based planning, robotics, me},
+	title = {Affordance-Based Reasoning in Robot Task Planning},
+	year = {2013}}
+
+@conference{Awaad2013Socializing-Rob,
+	author = {Awaad, Iman and Kraetzschmar, Gerhard K. and Hertzberg, Joachim},
+	booktitle = {International Workshop on Developmental Social Robotics (DevSoR): Reasoning about Human, Perspective, Affordances and Effort for Socially Situated Robots at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	date-added = {2015-03-31 07:54:06 +0000},
+	date-modified = {2015-03-31 07:54:06 +0000},
+	keywords = {affordances, me,},
+	title = {Socializing Robots: The Role of Functional Affordances},
+	year = {2013}}
+
+@inproceedings{Awaad2008XPERSim:-A-Simu,
+	author = {Awaad, Iman and Le{\'{o}}n, Beatriz},
+	booktitle = {Simulation, Modeling, and Programming for Autonomous Robots, First International Conference, {SIMPAR} 2008, Venice, Italy, November 3-6, 2008. Proceedings},
+	date-added = {2015-03-31 07:59:00 +0000},
+	date-modified = {2015-03-31 07:59:00 +0000},
+	doi = {10.1007/978-3-540-89076-8_5},
+	pages = {5--16},
+	title = {XPERSim: {A} Simulator for Robot Learning by Experimentation},
+	year = {2008},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-540-89076-8_5}}
+
+@inproceedings{Becanovic2002,
+	abstract = {The use of three types of spatio-temporal processing elements is investigated for optical sensory preprocessing in order to solve robot control problems in mobile robotics. The sensory elements are optical analog VLSI silicon retina type devices that do on-chip gradient operations and perform a current mode hysteretic winner-take-all function. Each sensor device extracts a characteristic feature from the optical input: position of highest contrast along a 1-D array, maximum speed along a 1-D array, maximum optical flow on a 2-D array. These are continuously calculated by the respective sensory devices. The sensory devices are applied in a mobile robotics application. They are used for active ball control, ball velocity prediction and active gaze-control for RoboCup Middle-Size League robots.},
+	author = {Becanovic, V. and Bredenfeld, Ansgar and Ploeger, Paul G.},
+	booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+	title = {{Reactive Robot Control using Optical Analog VLSI Sensors}},
+	url = {https://ieeexplore.ieee.org/document/1014710},
+	year = {2002},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/1014710}}
+
+@inproceedings{Becanovic2002a,
+	author = {Becanovic, V. and Indiveri, G. and Kobialka, H.-U. and Ploeger, Paul G.},
+	booktitle = {Mechatronics and Machine Vision},
+	title = {{Silicon Retina Sensing guided by Omni-directional Vision}},
+	year = {2002}}
+
+@inproceedings{Becanovic2002b,
+	abstract = {A way of combining a relatively new sensor-technology, that is optical analog VLSI devices, with a standard digital omni-directional vision system is investigated. The sensor used is a neuromorphic analog VLSI sensor that estimates the global visual image motion. The sensor provides two analog output voltages that represent the components of the global optical flow vector. The readout is guided by an omni-directional mirror that maps the location of the ball and directs the robot to align its position so that a sensor-actuator module that includes the analog VLSI optical flow sensor can be activated. The purpose of the sensoractuator module is to operate with a higher update rate than the standard vision system and thus increase the reactivity of the robot for very specific situations. This paper will demonstrate an application example where the robot is a goalkeeper with the task of defending the goal during a penalty kick.},
+	author = {Becanovic, V. and Indiveri, G. and Kobialka, H.-U. and Ploeger, Paul G. and Stocker, A.},
+	booktitle = {Mechatronics and Machine Vision in Practice},
+	title = {{Silicon Retina Sensing guided by Omni-directional Vision}},
+	url = {https://www.sas.upenn.edu/~astocker/lab/publications-files/conferences/M2VIP2002/Becanovic_etal2002.pdf},
+	year = {2002},
+	Bdsk-Url-1 = {https://www.sas.upenn.edu/~astocker/lab/publications-files/conferences/M2VIP2002/Becanovic_etal2002.pdf}}
+
+@inproceedings{Bischoff2010,
+	address = {Munich, Germany},
+	author = {Bischoff, Rainer and Guhl, Tim and Prassler, Erwin and Nowak, Walter and Kraetzschmar, Gerhard K. and Bruyninckx, Herman and Soetens, P. and Haegele, Martin and Pott, A. and Breedveld, P. and Broenink, J. and Brugali, Davide and Tomatis, N.},
+	booktitle = {Proc. of the IFR International Symposium on Robotics (ISR 2010)},
+	title = {{BRICS {\^a} Best practice in robotics}},
+	year = {2010}}
+
+@inproceedings{Sebastian-Blumenthal2015An-Approach-for,
+	author = {Blumenthal, Sebastian and Hochgeschwender, Nico and Prassler, Erwin and Voos, Holger and Bruyninckx, Herman},
+	booktitle = {Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2015)},
+	date-added = {2015-10-02 08:27:50 +0000},
+	date-modified = {2015-10-02 08:42:25 +0000},
+	title = {An Approach for a Distributed World Model with QoS-based Perception Algorithm Adaptation},
+	year = {2015}}
+
+@conference{Bratko2007Initial-experim,
+	author = {Bratko, I. and Suc, D. and Awaad, I. and Demsar, J. and Gemeiner, P. and Guid, M. and Leon, B. and Mestnik, M. and Prankle, J. and Prassler, E. and Vincze, M. and Zabkar, J.},
+	booktitle = {Workshop on "Concept Learning for Embodied Agents at the IEEE International Conference on Robotics and Automation (ICRA)},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-03-31 07:50:11 +0000},
+	keywords = {XPERO, robotics, learning},
+	title = {Initial experiments in robot discovery in XPERO},
+	year = {2007}}
+
+@inproceedings{Bredenfeld2000,
+	abstract = {Dual Dynamics (DD) is a mathematical model of a behavior control system for mobile autonomous robots. Behaviors are specified through differential equations, forming a global dynamical system made of behavior subsystems which interact in a number of ways. DD models can be directly compiled into executable code. The article (i) explains the model, (ii) sketches the Dual Dynamics Designer (DDD) environment that we use for the design, simulation, implementation and documentation, and (iii) illustrates our approach with the example of kicking a moving ball into a goal.},
+	author = {Bredenfeld, Ansgar and Christaller, T. and Goehring, W. and Guenther, H. and Jaeger, H. and Kobialka, H.-U. and Ploeger, Paul G. and Schoell, P. and Siegberg, A. and Streit, A. and Verbeek, C. and Wilberg, J.},
+	booktitle = {RoboCup-99: Robot Soccer World Cup III},
+	title = {{Behavior Engineering with 'Dual Dynamics' Models and Design Tools}},
+	url = {https://link.springer.com/chapter/10.1007/3-540-45327-X_18},
+	year = {2000},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/3-540-45327-X_18}}
+
+@inproceedings{Bredenfeld1999,
+	author = {Bredenfeld, Ansgar and Christaller, T. and Goehring, W. and Guenther, H. and Jaeger, H. and Kobialka, H.-U. and Ploeger, Paul G. and Schoell, P. and Siegberg, A. and Streit, A. and Verbeek, C. and Wilberg, J.},
+	booktitle = {Sixteenth International Joint Conference on Artificial Intelligence (IJCAI) Workshop ABS-4 Third International Workshop on RoboCup},
+	publisher = {Manuela Veloso},
+	title = {{Behavior Engineering with ''Dual Dynamics'' Models and Design Tools}},
+	year = {1999}}
+
+@article{Breuer2011,
+	abstract = {In this article we describe the architecture, algorithms and real-world benchmarks performed by Johnny Jackanapes, an autonomous service robot for domestic environments. Johnny serves as a research and development platform to explore, develop and integrate capabilities required for real-world domestic service applications. We present a control architecture which allows to cope with various and changing domestic service robot tasks. A software architecture supporting the rapid integration of functionality into a complete system is as well presented. Further, we describe novel and robust algorithms centered around multi-modal human robot interaction, semantic scene understanding and SLAM. Evaluation of the complete system has been performed during the last years in the RoboCup@Home competition where Johnnys outstanding performance led to successful participation. The results and lessons learned of these benchmarks are explained in more detail.},
+	author = {Breuer, Thomas and Giorgana Macedo, Geovanny R. and Hartanto, Ronny and Hochgeschwender, Nico and Holz, Dirk and Hegger, Frederik and Jin, Zha and Mueller, Christian Atanas and Paulus, Jan and Reckhaus, Michael and Ploeger, Paul G. and Kraetzschmar, Gerhard K. and Alvarez Ruiz, Jose Antonio},
+	doi = {10.1007/s10846-011-9608-y},
+	journal = {Springer Journal of Intelligent and Robotic Systems},
+	keywords = {Domestic service robots,Human robot interaction,Semantic scene understanding},
+	number = {Special Issue on Domestic Service Robots in the Real World},
+	pages = {1--28},
+	title = {{Johnny: An Autonomous Service Robot for Domestic Environments}},
+	url = {http://dx.doi.org/10.1007/s10846-011-9608-y},
+	year = {2011},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10846-011-9608-y}}
+
+@inproceedings{Breuer2010a,
+	address = {Darmstadt, Germany},
+	author = {Breuer, Thomas and Ploeger, Paul G. and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the Workshop on Domestic Service Robots in the Real World held at the 2nd International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	keywords = {gesture recognition,gesture-based hri,hri,human-robot interaction,pointing gesture detection,pointing gesture recognition},
+	title = {{Precise Pointing Target Recognition for Human-Robot Interaction}},
+	url = {https://www.sim.informatik.tu-darmstadt.de/simpar/ws/sites/DSR2010/06-DSR.pdf},
+	year = {2010},
+	Bdsk-Url-1 = {https://www.sim.informatik.tu-darmstadt.de/simpar/ws/sites/DSR2010/06-DSR.pdf}}
+
+@inproceedings{Brugali2010,
+	author = {Brugali, Davide and Shakhimardanov, Azamat},
+	booktitle = {IEEE Robotics and Automation Magazine},
+	title = {{Component-based Robotic Engineering. Part II: Models and systems}},
+	year = {2010}}
+
+@inproceedings{Dwiputra2013,
+	abstract = {Domestic service robots are designed for human environment. Therefore, the robot should be controlled by means of natural interactions rather than the common controllers used in laboratory setting (e.g. keyboard or joypad). In this paper, a feature for controlling a domestic service robot through physical interaction is presented. The feature showcases the utilization of the robot's manipulator as its haptic interface. The feature uses low pass filter and proportional-integral- derivative (PID) controller which remove the rapid fluctuation in the force input and stabilize the velocity output. The robot's omnidirectional capability is accommodated through different interaction modes which can be selected based on the user preference. Through the proposed approach, the physical interaction will be translated into base motion commands which adjust itself autonomously. The result is a more natural way of controlling the robot. The feature has been proven to be intuitive and safe through the user trial which was performed in a domestic environment.},
+	address = {Kuala Lumpur, Malaysia},
+	author = {Dwiputra, Rhama and Kraetzschmar, Gerhard K.},
+	booktitle = {2nd International Conference on Control, Robotics and Informatics (ICCRI)},
+	title = {Haptic Interface for Domestic Service Robot},
+	year = {2013}}
+
+@inproceedings{eickeler2016future,
+	abstract = {For the assistance of drivers and for autonomous vehicles an automatic recognition of traffic signs is essential. Today's traffic sign recognition systems are focusing on circular signs. Because speed limit signs are circular and because the recognition of speed limit signs deliver a high customer benefit, such systems have been realized primarily in series production. But for traffic sign recognition there are still many challenges to be tackled. This contribution presents how research and intelligent development of computer vision algorithms will enable much more advanced traffic sign recognition systems on embedded systems by reducing processing time while simultaneously enlarging functionality. The result is a reduction of hardware cost and energy consumption.},
+	author = {Eickeler, Stefan and Valdenegro, Matias and Werner, Thomas and Kieninger, Michael},
+	booktitle = {Advanced Microsystems for Automotive Applications 2015},
+	pages = {69--77},
+	publisher = {Springer},
+	title = {Future Computer Vision Algorithms for Traffic Sign Recognition Systems},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-20855-8_6},
+	year = {2016},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-20855-8_6}}
+
+@inbook{Fueller2015,
+	address = {Cham},
+	author = {F{\"u}ller, Matthias and Meenakshi Sundaram, Ashok and Ludwig, Melanie and Asteroth, Alexander and Prassler, Erwin},
+	booktitle = {Information and Communication Technologies for Ageing Well and e-Health: First International Conference, ICT4AgeingWell 2015, Lisbon, Portugal, May 20-22, 2015. Revised Selected Papers},
+	doi = {10.1007/978-3-319-27695-3_7},
+	editor = {Helfert, Markus and Holzinger, Andreas and Ziefle, Martina and Fred, Ana and O'Donoghue, John and R{\"o}cker, Carsten},
+	isbn = {978-3-319-27695-3},
+	pages = {106--125},
+	publisher = {Springer International Publishing},
+	title = {Modeling and Predicting the Human Heart Rate During Running Exercise},
+	url = {http://dx.doi.org/10.1007/978-3-319-27695-3_7},
+	year = {2015},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-319-27695-3_7}}
+
+@inproceedings{Fueller2013,
+	address = {Montevideo, Uruguay},
+	author = {Fueller, Matthias and Prassler, Erwin and Forsmann, Pekka},
+	booktitle = {Proceedings of the International Conference on Advanced Robotics (ICAR)},
+	title = {{Multi-Step Motion Planning for Climbing Robots with Kinodynamic Constraints}},
+	year = {2013}}
+
+@inproceedings{Gaier2015Evolutionary-De,
+	address = {New York, USA},
+	author = {Gaier, Adam},
+	booktitle = {Proceedings of the Companion Publication of the 2015 on Genetic and Evolutionary Computation Conference - GECCO Companion '15},
+	date-added = {2015-08-25 10:04:55 +0000},
+	date-modified = {2015-08-25 10:04:58 +0000},
+	doi = {10.1145/2739482.2768478},
+	isbn = {9781450334884},
+	keywords = {compositional pattern producing networks,design optimization,hyperneat,indirect encodings,nurbs},
+	mendeley-groups = {Stella,Dove},
+	month = jul,
+	pages = {1197--1200},
+	publisher = {ACM Press},
+	title = {{Evolutionary Design via Indirect Encoding of Non-Uniform Rational Basis Splines}},
+	url = {http://dl.acm.org/citation.cfm?id=2739482.2768478},
+	year = {2015},
+	Bdsk-Url-1 = {http://dl.acm.org/citation.cfm?id=2739482.2768478},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1145/2739482.2768478}}
+
+@inproceedings{gaier2014evolution,
+	address = {Dearborn, Michigan, USA},
+	author = {Gaier, Adam and Asteroth, Alexander},
+	booktitle = {IEEE Intelligent Vehicles Symposium},
+	date-added = {2014-09-15 10:39:16 +0000},
+	date-modified = {2014-09-15 10:39:16 +0000},
+	organization = {IEEE},
+	pages = {1121--1126},
+	title = {Evolution of optimal control for energy-efficient transport},
+	year = {2014}}
+
+@inproceedings{gaier2014evolving,
+	address = {Madrid, Spain},
+	author = {Gaier, Adam and Asteroth, Alexander},
+	booktitle = {IEEE International Symposium on Innovations in Intelligent Systems and Applications (INISTA)},
+	date-added = {2014-09-15 10:37:38 +0000},
+	date-modified = {2014-09-15 10:37:38 +0000},
+	organization = {IEEE},
+	pages = {138--145},
+	title = {Evolving look ahead controllers for energy optimal driving and path planning},
+	year = {2014}}
+
+@inproceedings{Gherardi2015a,
+	address = {Florence, Italy},
+	author = {Gherardi, Luca and Hochgeschwender, Nico},
+	booktitle = {Proceedings of the 37th International Conference on Software Engineering},
+	month = {May},
+	note = {Poster and Extended Abstract},
+	timestamp = {2015.05.16},
+	title = {Poster: Model-based Run-time Variability Resolution for Robotic Applications},
+	year = {2015}}
+
+@inproceedings{Gherardi2015RRA:-Models-and,
+	author = {Gherardi, Luca and Hochgeschwender, Nico},
+	booktitle = {Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2015)},
+	date-added = {2015-10-02 08:29:10 +0000},
+	date-modified = {2015-10-02 08:29:20 +0000},
+	title = {{RRA}: Models and Tools for Robotics Run-time Adaptation},
+	year = {2015}}
+
+@inproceedings{GiorganaMacedo2010,
+	address = {Darmstadt, Germany},
+	author = {Giorgana Macedo, Geovanny R.},
+	booktitle = {Proceedings of the Workshop on Domestic Service Robots in the Real World held at the 2nd International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {{Facial Expression Recognition for Domestic Service Robots}},
+	year = {2010}}
+
+@inproceedings{Hagg2016,
+	abstract = {Current object recognition methods fail on object sets that include both diffuse, reflective and transparent materials, although they are very common in domestic scenarios. We show that a combination of cues from multiple sensor modalities, including specular reflectance and unavailable depth information, allows us to capture a larger subset of household objects by extending a state of the art object recognition method. This leads to a significant increase in robustness of recognition over a larger set of commonly used objects.},
+	address = {Leipzig, Germany},
+	author = {Hagg, Alexander and Hegger, Frederik and Ploeger, Paul G.},
+	booktitle = {Proceedings of the 20th RoboCup International Symposium, Winner of the "Best Paper Award for Scientific Contribution"},
+	title = {{On Recognizing Transparent Objects in Domestic Environments Using Fusion of Multiple Sensor Modalities}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-68792-6_1},
+	year = {2016},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-68792-6_1}}
+
+@inproceedings{Hegger2012a,
+	address = {Mexico City, Mexico},
+	author = {Hegger, Frederik and Hochgeschwender, Nico and Kraetzschmar, Gerhard K. and Ploeger, Paul G.},
+	booktitle = {Proceedings of the 16th RoboCup International Symposium 2012},
+	keywords = {human-robot interaction,people detection,rgb-d},
+	title = {{People Detection in 3d Point Clouds using Local Surface Normals}},
+	year = {2012}}
+
+@inproceedings{Gernot-Heisenberg2014Arm-prosthesis-,
+	address = {Gothenburg, Sweden},
+	author = {Heisenberg, Gernot and Rezaei, Yashar Abbasalizadeh and Rothdeutsch, Timo and Heiden, Wolfgang},
+	booktitle = {Proccedings of the 10th International Conference on Disability, Virtual Reality and Associated Technologies},
+	date-added = {2014-09-15 10:42:25 +0000},
+	date-modified = {2014-09-15 10:42:40 +0000},
+	title = {Arm prosthesis simulation on a virtual reality L-shaped workbench display system using a brain computer interface},
+	year = {2014}}
+
+@inproceedings{6696915,
+	author = {Hochgeschwender, N. and Gherardi, L. and Shakhirmardanov, A and Kraetzschmar, G.K. and Brugali, D. and Bruyninckx, H.},
+	booktitle = {Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International Conference on},
+	doi = {10.1109/IROS.2013.6696915},
+	issn = {2153-0858},
+	keywords = {control engineering computing;robots;software architecture;DSL;KUKA youBot platform;complex robot software architecture;domain-specific language;model-driven engineering-based development;robotics;software deployment;Computational modeling;Computer architecture;Data models;Navigation;Service robots;Software},
+	month = {Nov},
+	pages = {3907-3914},
+	title = {A model-based approach to software deployment in robotics},
+	year = {2013},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1109/IROS.2013.6696915}}
+
+@inproceedings{Hochgeschwender2013a,
+	address = {Lyon, France},
+	author = {Hochgeschwender, Nico and Hegger, Frederik and Kraetzschmar, Gerhard K.},
+	booktitle = {European Robotics Forum 2013 - Working Session on Infrastructure for Robot Analysis and Benchmarking},
+	title = {{Analysis and Benchmarking Infrastructure Requirements for Robot Competitions}},
+	year = {2013}}
+
+@inproceedings{Hochgeschwender2014a,
+	address = {Bergamo, Italy},
+	author = {Hochgeschwender, Nico and Schneider, Sven and Voos, Holger and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the 2014 International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {Declarative Specification of Robot Perception Architectures},
+	year = {2014}}
+
+@inproceedings{Hochgeschwender2013,
+	address = {Tokyo, Japan},
+	author = {Hochgeschwender, Nico and Schneider, Sven and Voos, Holger and Kraetzschmar, Gerhard K.},
+	booktitle = {International Workshop on Domain-Specific Languages and models for ROBotic systems (DSLRob)},
+	title = {{Towards a Robot Perception Specification Language}},
+	year = {2013}}
+
+@inproceedings{Hochgeschwender2010,
+	address = {Anchorage, USA},
+	author = {Hochgeschwender, Nico and Shakhimardanov, Azamat},
+	booktitle = {SDIR Tutorial on Component-Based Robotics Engineering, IEEE/RAS International Conference on Robotics and Automation (ICRA)},
+	title = {{Component-Based Robotics Middleware}},
+	year = {2010}}
+
+@inproceedings{Nico-HochgeschwenderContext-based-S,
+	author = {Hochgeschwender, Nico and Voos, Holger and and Gerhard K. Kraetzschmar},
+	booktitle = {Proceedings of IEEE International Conference on Emerging Technologies and Factory Automation (ETFA)},
+	date-added = {2015-10-02 08:31:20 +0000},
+	date-modified = {2015-10-02 08:31:34 +0000},
+	title = {Context-based Selection and Execution of Robot Perception Graphs},
+	year = {2015}}
+
+@inproceedings{Holz2009a,
+	address = {Graz, Austria},
+	author = {Holz, Dirk and Kraetzschmar, Gerhard K. and Rome, E.},
+	booktitle = {Proceedings of the 13th RoboCup International Symposium},
+	title = {{Robust and Computationally Efficient Navigation in Domestic Environments}},
+	year = {2009}}
+
+@inproceedings{Holz2008,
+	address = {Cologne, Germany},
+	author = {Holz, Dirk and Loerken, C. and Surmann, H.},
+	booktitle = {Proceedings of the International Conference on Information Fusion (FUSION)},
+	title = {{Continuous 3D Sensing for Navigation and SLAM in Cluttered and Dynamic Environments}},
+	year = {2008}}
+
+@inproceedings{Indiveri2007,
+	address = {Rome, Italy},
+	author = {Indiveri, G. and Paulus, Jan and Ploeger, Paul G.},
+	booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+	title = {{Task Based Kinematical Robot Control in the Presence of Actuator Velocity Saturation and Its Application to Trajectory Tracking for an Omni-wheeled Mobile Robot}},
+	year = {2007}}
+
+@inproceedings{Indiveri2006,
+	address = {Bremen, Germany},
+	author = {Indiveri, G. and Paulus, Jan and Ploeger, Paul G.},
+	booktitle = {RoboCup Symposium},
+	title = {{Motion Control of Swedish Wheeled Mobile Robots in the Presence of Actuator Saturation}},
+	year = {2006}}
+
+@inproceedings{Ishii2004,
+	abstract = {Echo State Networks (ESNs) use a recurrent artificial neural network as a reservoir. Finding a good one depends on choosing the right parameters for the generation of the reservoir, intuition and luck. The method proposed in this article eliminates the need for the tuning by hand by replacing it with a double evolutionary computation. First a broad search to find the right parameters which generate the reservoir is used. Then a search directly on the connectivity matrices fine-tunes the ESN. Both steps show improvements over other known methods for an experimental limit-cycle dataset of the Twin-Burger underwater robot.},
+	author = {Ishii, K. and van der Zant, Tijn and Ploeger, Paul G. and Becanovic, V.},
+	booktitle = {Oceans'04},
+	title = {{Identification of Motion with Echo State Network}},
+	url = {https://ieeexplore.ieee.org/document/1405751},
+	year = {2004},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/1405751}}
+
+@inproceedings{Ji2003,
+	abstract = {An omni vision based new triangulation method for localizing a mobile robot or intelligent vehicle in an environment with landmarks is proposed in this paper. Our vision program can identify some landmarks from the image, then the triangulation method estimates the robot's position and orientation in the environment coordinates, just using the view angle to these landmarks. A RoboCup middle size league soccer robot is chosen to test the algorithm, experimental results are provided.},
+	address = {Columbus, Ohio, USA},
+	author = {Ji, J. and Indiveri, G. and Ploeger, Paul G. and Bredenfeld, Ansgar},
+	booktitle = {Proceedings of the IEEE Intelligent Vehicles Symposium},
+	title = {{An Omni-Vision based Self-Localization Method for Soccer Robot}},
+	url = {https://ieeexplore.ieee.org/document/1212922},
+	year = {2003},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/1212922}}
+
+@inproceedings{Jin2010,
+	address = {Darmstadt, Germany},
+	author = {Jin, Zha},
+	booktitle = {Proceedings of the Workshop on Domestic Service Robots in the Real World held at the 2nd International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	isbn = {9783000328633},
+	keywords = {gbnr,microphone array,sound localize},
+	pages = {263--273},
+	title = {{An Optimized GBNR Sound Localization Algorithm with 4 elements Microphone Array}},
+	url = {http://www.simpar.org/ws/sites/DSR2010/09-DSR.pdf},
+	year = {2010},
+	Bdsk-Url-1 = {http://www.simpar.org/ws/sites/DSR2010/09-DSR.pdf}}
+
+@inproceedings{B.-Kahl2014Acceptance-and-,
+	author = {Kahl, B. and F{\"u}ller, M. and Beer, T. and Ziegler, S.},
+	booktitle = {Proceedings of New Frontiers of Service Robotics for the Elderly, IEEE RoMan},
+	date-added = {2015-10-02 08:11:19 +0000},
+	date-modified = {2015-10-02 08:11:42 +0000},
+	title = {Acceptance and communicative effectiveness of different HRI modalities for mental stimulation in dementia care},
+	year = {2014}}
+
+@inproceedings{Kirchner2014A-robust-people,
+	author = {Kirchner, Nathan and Alempijevic, Alen and Virgona, Alexander and Dai, Xiaohe and Pl{\"o}ger, Paul G. and Venkat, Ravi Kumar},
+	booktitle = {Proceedings of Australasian Conference on Robotics and Automation, 2-4 Dec 2014, The University of Melbourne, Melbourne, Australia},
+	date-added = {2015-09-16 09:36:36 +0000},
+	date-modified = {2015-09-16 09:36:39 +0000},
+	title = {A robust people detection, tracking, and counting system},
+	url = {http://www.araa.asn.au/conferences/acra-2014/table-of-contents/},
+	year = {2014},
+	Bdsk-Url-1 = {http://www.araa.asn.au/conferences/acra-2014/table-of-contents/}}
+
+@inproceedings{Bruyninckx:2013:BCM:2480362.2480693,
+	address = {Coimbra, Portugal},
+	author = {Klotzb\"{u}cher, Markus and Hochgeschwender, Nico and Gherardi, Luca and Bruyninckx, Herman and Kraetzschmar, Gerhard K. and Brugali, Davide and Shakhimardanov, Azamat and Paulus, Jan and Reckhaus, Michael and Garcia, H. and Faconti, D. and Soetens, P.},
+	booktitle = {Proceedings of the 28th Annual ACM Symposium on Applied Computing (SAC) - Track on Software Architecture: Theory, Technology, and Applications (SA-TTA)},
+	doi = {10.1145/2480362.2480693},
+	isbn = {978-1-4503-1656-9},
+	keywords = {component models,reusable software,robotics,software architectures},
+	publisher = {ACM},
+	series = {SAC '13},
+	title = {{The BRICS component model: a model-based development paradigm for complex robotics software systems}},
+	url = {http://doi.acm.org/10.1145/2480362.2480693},
+	year = {2013},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/2480362.2480693},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1145/2480362.2480693}}
+
+@inproceedings{Kraetzschmar2014,
+	abstract = {Mobile manipulators are viewed as an essential component for making the factory of the future become a reality. RoboCup@Work is a competition designed by a group of researchers from the RoboCup community and focuses on the use of mobile manipulators and their integration with automation equipment for performing industrially-relevant tasks. The paper describes the design and implementation of the competition and the experiences made so far.},
+	address = {Joao Pessoa, Brazil},
+	author = {Kraetzschmar, Gerhard K. and Hochgeschwender, Nico and Nowak, Walter and Hegger, Frederik and Schneider, Sven and Dwiputra, Rhama and Berghofer, Jakob and Bischoff, Rainer},
+	booktitle = {Proceedings of the 18th RoboCup International Symposium},
+	title = {{RoboCup@Work: Competing for the Factory of the Future}},
+	year = {2014}}
+
+@inproceedings{Kraetzschmar2010,
+	address = {Darmstadt, Germany},
+	author = {Kraetzschmar, Gerhard K. and Shakhimardanov, Azamat and Reckhaus, Michael and Paulus, Jan and Hochgeschwender, Nico},
+	booktitle = {2nd International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {{On the role of simulation in the robot development process}},
+	year = {2010}}
+
+@inproceedings{Kuestenmacher2014ICAPS,
+	author = {Kuestenmacher, A. and Akhtar, N. and Pl{\"o}ger, P. G. and Lakemeyer, G.},
+	booktitle = {24th International Conference on Automated Planning and Scheduling (ICAPS), Journal Presentation Track},
+	date-added = {2015-09-02 10:49:45 +0000},
+	date-modified = {2015-09-16 09:38:27 +0000},
+	title = {Towards Robust Task Execution for Domestic Service Robots},
+	year = {2014}}
+
+@inproceedings{Kuestenmacher2013,
+	address = {Eindhoven, Netherlands},
+	author = {Kuestenmacher, Anastassia and Akhtar, Naveed and Ploeger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {Proceedings of the 17th RoboCup International Symposium},
+	title = {{Unexpected Situations in Service Robot Environment: Classification and Reasoning Using Naive Physics}},
+	url = {http://www.researchgate.net/publication/253644542\_Unexpected\_Situations\_in\_Service\_Robot\_Environment\_Classification\_and\_Reasoning\_Using\_Naive\_Physics/file/e0b4951f969f79db1c.pdf},
+	year = {2013},
+	Bdsk-Url-1 = {http://www.researchgate.net/publication/253644542%5C_Unexpected%5C_Situations%5C_in%5C_Service%5C_Robot%5C_Environment%5C_Classification%5C_and%5C_Reasoning%5C_Using%5C_Naive%5C_Physics/file/e0b4951f969f79db1c.pdf}}
+
+@inproceedings{Kuestenmacher2014DX,
+	author = {Kuestenmacher, A. and Pl{\"o}ger, P. and Lakemeyer, G.},
+	booktitle = {25nd International Workshop on Principles of Diagnosis DX'14},
+	date-added = {2015-09-02 10:52:34 +0000},
+	date-modified = {2015-09-02 10:53:32 +0000},
+	title = {Enhancing Action Execution by Using Spatial Relational Knowledge},
+	year = {2014}}
+
+@inproceedings{Kuestenmacher2013a,
+	address = {Jerusalem, Israel},
+	author = {Kuestenmacher, Anastassia and Ploeger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {Proceedings of the 24th International Workshop on Principles of Diagnosis DX'13},
+	title = {{Improving Robustness of Task Execution Against External Faults Using Simulation Based Approach}},
+	year = {2013}}
+
+@inproceedings{Ludwig2015,
+	address = {Lisbon, Portugal},
+	author = {Ludwig, Melanie and Meenakshi Sundaram, Ashok and Fueller, Matthias and Asteroth, Alexander and Prassler, Erwin},
+	booktitle = {Proceedings of the International Conference on Information and Communication Technologies for Ageing Well and e-Health},
+	timestamp = {2015.05.20},
+	title = {On Modeling the Cardiovascular System and Predicting the Human Heart Rate under Strain},
+	year = {2015}}
+
+@inproceedings{Mueller2012,
+	address = {Bonn, Germany},
+	author = {Mueller, Christian Atanas},
+	booktitle = {Informatik Tage 2012},
+	publisher = {Gesellschaft fuer Informatik e.V. (GI)},
+	title = {{3D Objekt Kategorisierung in haeuslichen Umgebungen}},
+	year = {2012}}
+
+@inproceedings{Mueller2011a,
+	address = {San Francisco, USA},
+	author = {Mueller, Christian Atanas and Hochgeschwender, Nico and Ploeger, Paul G.},
+	booktitle = {Proceedings of the Workshop on Active Semantic Perception and Object Search in the Real World held at the Conference on Intelligent Robots and Systems (IROS)},
+	title = {{Surface Reconstruction with Growing Neural Gas}},
+	year = {2011}}
+
+@inproceedings{Mueller2011,
+	address = {Istanbul, Turkey},
+	author = {Mueller, Christian Atanas and Hochgeschwender, Nico and Ploeger, Paul G. and Pl\"{o}ger, Paul G.},
+	booktitle = {Proceedings of the 15th RoboCup International Symposium},
+	keywords = {bag of features,classifier combination,clustering,feature extraction,machine learning,object categorization},
+	title = {{Towards Robust Object Categorization for Mobile Robots with Combination of Classifiers}},
+	url = {http://robolab.cse.unsw.edu.au/conferences/RoboCup-2011/Talks/Mueller\_etal.pdf},
+	year = {2011},
+	Bdsk-Url-1 = {http://robolab.cse.unsw.edu.au/conferences/RoboCup-2011/Talks/Mueller%5C_etal.pdf}}
+
+@inproceedings{Mueller2012a,
+	address = {Vilamoura, Portugal},
+	author = {Mueller, Christian A. and Ploeger, Paul G. and Roscoe, Matthew S.},
+	booktitle = {International Conference on Intelligent Robots and Systems (IROS): Active Semantic Perception Workshop},
+	month = {October},
+	title = {Towards Scalable 3D Object Shape Categorization},
+	year = {2012}}
+
+@inproceedings{Naveed2013,
+	address = {Jerusalem, Israel},
+	author = {Naveed, Akhtar and Kuestenmacher, Anastassia and Ploeger, Paul G. and Lakemeyer, Gerhard},
+	booktitle = {Proceedings of the International Conference on Advanced Robotics (ICAR)},
+	title = {{Simulation-based approach for avoiding external faults}},
+	year = {2013}}
+
+@article{Niemueller2016,
+	abstract = {Autonomy is an increasing trend in manufacturing industries. Several industry-inspired robotic competitions have been established in recent years to provide testbeds of comprehensible size. In this paper, we describe a knowledge-based instrumentation and control framework used in several of these competitions. It is implemented using a rule-based production system and creates the task goals for autonomous mobile robots. It controls the environment's agency using sensor data from processing stations and instructs proper reactions. The monitoring and collection of various data allows for an effective instrumentation of the competitions for evaluation purposes. The goal is to achieve automated runs with no or as little human intervention as possible which would allow for more and longer lasting runs. It provides a general framework adaptable to suit many scenarios and is an interesting test case for knowledge-based systems in an industry-inspired setting.},
+	author = {Niemueller, Tim and Zug, Sebastian and Schneider, Sven and Karras, Ulrich},
+	journal = {KI -- Zeitschrift Kuenstliche Intelligenz},
+	pages = {1--11},
+	timestamp = {2016.08.10},
+	title = {Knowledge-Based Instrumentation and Control for Competitive Industry-Inspired Robotic Domains},
+	url = {https://link.springer.com/article/10.1007/s13218-016-0438-8},
+	year = {2016},
+	Bdsk-Url-1 = {https://link.springer.com/article/10.1007/s13218-016-0438-8}}
+
+@article{Nordmann2016,
+	abstract = {The design, simulation and programming of robotics systems is challenging as expertise from multiple domains needs to be integrated conceptually and technically. Domain-specific modeling promises an efficient and flexible concept for developing robotics applications that copes with this challenge. It allows to raise the level of abstraction through the use of specific concepts that are closer to the respective domain concerns and easier to understand and validate. Furthermore, it focuses on increasing the level of automation, e.g. through code generation, to bridge the gap between the modeling and the implementation levels and to improve the efficiency and quality of the software development process. Within this contribution, we survey the literature available on domain-specific (modeling) languages in robotics required to realize a state-of-the-art real-world example from the RoboCup@Work competition. We classify 41 publications in the field as reference for potential DSL users. Furthermore, we analyze these contributions from a DSL-engineering viewpoint and discuss quantitative and qualitative aspects such as the methods and tools used for DSL implementation as well as their documentation status and platform integration. Finally, we conclude with some recommendations for discussion in the robotics programming and simulation community based on the insights gained with this survey.},
+	author = {Nordmann, Arne and Hochgeschwender, Nico and Wiegand, Dennis and Wrede, Sebastian},
+	journal = {Journal for Software Engineering Robotics (JOSER)},
+	number = {1},
+	title = {A Survey on Domain-specific Modeling and Languages in Robotics},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-11900-7_17},
+	volume = {7},
+	year = {2016},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-11900-7_17}}
+
+@inproceedings{Nordmann,
+	address = {Bergamo, Italy},
+	author = {Nordmann, Arne and Hochgeschwender, Nico and Wrede, Sebastian},
+	booktitle = {Proceedings of the 2014 International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {A Survey on Domain-specific Languages in Robotics},
+	year = {2014}}
+
+@inproceedings{Olufs2006,
+	address = {Bremen, Germany},
+	author = {Olufs, Sven and Adolf, F. and Hartanto, Ronny and Ploeger, Paul G.},
+	booktitle = {RoboCup Symposium},
+	title = {{Towards Probabilistic Shape Vision in RoboCup: A Practical Approach}},
+	year = {2006}}
+
+@inproceedings{Ploeger2003,
+	abstract = {Applications of recurrent neural networks (RNNs) tend to be rare because training is difficult. A recent theoretical breakthrough [Jae01b] called Echo State Networks (ESNs) has made RNN training easy and fast and makes RNNs a versatile tool for many problems. The key idea is training the output weights only of an otherwise topologically unrestricted but contractive network. After outlining the mathematical basics, we apply ESNs to two examples namely to the generation of a dynamical model for a differential drive robot using supervised learning and secondly to the training of a respective motor controller.},
+	address = {Paduva, Italy},
+	author = {Ploeger, Paul G. and Arghir, A. and Guenther, T. and Hosseiny, R.},
+	booktitle = {Proceedings of the RoboCup},
+	title = {{Echo State Networks for Mobile Robot Modeling and Control}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-540-25940-4_14},
+	year = {2003},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-540-25940-4_14}}
+
+@inproceedings{Ploeger2010,
+	address = {Darmstadt, Germany},
+	author = {Ploeger, Paul G. and Mueller, Christian Atanas},
+	booktitle = {Proceedings of the Workshop on Domestic Service Robots in the Real World held at the 2nd International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {{Towards Robust Object Categorization on a Mobile Robot}},
+	year = {2010}}
+
+@article{Ploeger2008,
+	author = {Ploeger, Paul G. and Pervoelz, K. and Mies, C. and Eyerich, P. and Brenner, M. and Nebel, B.},
+	journal = {KI -- Zeitschrift Kuenstliche Intelligenz},
+	number = {4},
+	pages = {29--30},
+	title = {{The DESIRE Service Robotics Initiative}},
+	year = {2008}}
+
+@inproceedings{Reckhaus2010a,
+	address = {Darmstadt, Germany},
+	author = {Reckhaus, Michael and Hochgeschwender, Nico and Paulus, Jan and Shakhimardanov, Azamat and Kraetzschmar, Gerhard K.},
+	booktitle = {Proc. of the Workshop on Simulation Technologies in the Robot Development Process held on the 2nd International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR 2010)},
+	title = {{An Overview about Simulation and Emulation in Robotics}},
+	year = {2010}}
+
+@inproceedings{Reckhaus2010,
+	address = {Taipeh, Taiwan},
+	author = {Reckhaus, Michael and Hochgeschwender, Nico and Ploeger, Paul G. and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the 1st International Workshop on Domain-Specific Languages and Models for Robotic Systems (DSLRob), IEEE/RSJ International Conference on Intelligent Robots and Systems},
+	title = {{A Platform-independent Programming Environment for Robot Control}},
+	year = {2010}}
+
+@inproceedings{Salmen2005,
+	abstract = {This paper applies a new kind of recurrent neu ral networks (RNN) called Echo State Networks (ESN) [4] to the classical problem of motor speed control for a differential drive robot. ESNs can be trained orders of magnitude faster than other RNNs and previous simulation-based investigations showed promising results when ESNs where used as black box models in the domain of system identification or as a low-level plant controllers [11]. This paper validates for the first time the predicted superior simulation results by physical experiments. In order to compare the quality of an ESN controller fairly to the original PID based controller a complete test work flow is established. It consists of an embedded implementation of the ESN motor-controller, a trace facility, a procedure to train a new ESN motor-controller according to these traced data and a user interface to define and control test-drives of the robot. The results prove that the ESN controller shows a slightly better control quality as a PID controller with respect to various important error norms from control theory. For the experiments we used a RoboCup robot and for this special application scenario the ESN controller actually outperforms the PID.},
+	author = {Salmen, M. and Ploeger, Paul G.},
+	booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+	title = {{Echo State Networks used for Motor Control}},
+	url = {https://ieeexplore.ieee.org/document/1570399},
+	year = {2005},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/1570399}}
+
+@inproceedings{Sanchez2014,
+	abstract = {Robots capable of assisting elderly people in their homes will become indispensable, since the world population is aging at an alarming rate. A crucial requirement for these robotic caregivers will be the ability to safely interact with humans, such as firmly grasping a human arm without applying excessive force. Minding this concern, we developed a reactive grasp that, using tactile sensors, monitors the pressure it exerts during manipulation. Our approach, inspired by human manipulation, employs an architecture based on different grasping phases that represent particular stages in a manipulation task. Within these phases, we implemented and composed simple components to interpret and react to the information obtained by the tactile sensors. Empirical results, using a Care-O-bot 3 R with a Schunk Dexterous Hand (SDH-2), show that considering tactile information can reduce the force exerted on the objects significantly.},
+	address = {Joao Pessoa, Brazil},
+	author = {Sanchez, Jose and Schneider, Sven and Pl\"{o}ger, Paul G.},
+	booktitle = {Proceedings of the 18th RoboCup International Symposium},
+	keywords = {Robot grasping, domestic robot, tactile feedback},
+	title = {Safely Grasping with Complex Dexterous Hands by Tactile Feedback},
+	year = {2014}}
+
+@inproceedings{Schneider2015,
+	address = {Luxembourg},
+	author = {Schneider, Sven and Hegger, Frederik and Hochgeschwender, Nico and Dwiputra, Rhama and Moriarty, Alexander and Berghofer, Jakob and Kraetzschmar, Gerhard},
+	booktitle = {Proceedings of the 20th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA): Special Session on Mobile Robotics in the Factory of the Future},
+	timestamp = {2015.09.08},
+	title = {Design and Development of a Benchmarking Testbed for the Factory of the Future},
+	year = {2015}}
+
+@inproceedings{Schneider2013,
+	address = {Karlsruhe, Germany},
+	author = {Schneider, Sven and Hochgeschwender, Nico},
+	booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) - Workshop on Combining Task and Motion Planning},
+	title = {{Towards a Declarative Grasp Specification Language}},
+	year = {2013}}
+
+@inproceedings{Schneider2014,
+	address = {Chicago, Illinois, USA},
+	author = {Schneider, Sven and Hochgeschwender, Nico and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	title = {{Declarative Specification of Task-based Grasping with Constraint Validation}},
+	year = {2014}}
+
+@inproceedings{Schneider2014a,
+	abstract = {Robot programming is an interdisciplinary and knowledge-intensive task. All too often, knowledge of the different robotics domains remains implicit. Although, this is slowly changing with the rising interest in explicit knowledge representations through domain-specific languages (DSL), very little is known about the DSL design and development processes themselves. To this end, we present and discuss the reverse-engineered process from the development of our Grasp Domain Definition Language (GDDL), a declarative DSL for the explicit specification of grasping problems. An important finding is that the process comprises similar building blocks as existing software development processes, like the Unified Process.},
+	address = {Bergamo, Italy},
+	author = {Schneider, Sven and Hochgeschwender, Nico and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the 2014 International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {{Structured Design and Development of Domain-Specific Languages in Robotics}},
+	year = {2014}}
+
+@inproceedings{Shakhimardanov2011,
+	address = {San Francisco, USA},
+	author = {Shakhimardanov, Azamat and Hochgeschwender, Nico and Reckhaus, Michael and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	title = {{Analysis of Software Connectors in Robotics}},
+	year = {2011}}
+
+@inproceedings{Shakhimardanov2010,
+	address = {Baltimore, USA},
+	author = {Shakhimardanov, Azamat and Kraetzschmar, Gerhard K. and Hochgeschwender, Nico},
+	booktitle = {Proceedings of the Performance Metrics for Intelligent Systems Workshop (PerMIS 2010)},
+	title = {{Component Models in Robotics Software}},
+	year = {2010}}
+
+@article{Shpieva2015Integrating-Tas,
+	author = {Shpieva, Elizaveta and Awaad, Iman},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-03-31 07:50:11 +0000},
+	doi = {10.1515/itit-2014-1064},
+	journal = {Information Technology},
+	keywords = {planning, execution, monitoring, control architectures},
+	month = {March},
+	number = {2},
+	pages = {112--121},
+	rating = {4},
+	timestamp = {2015.03.27},
+	title = {Integrating Task Planning, Execution and Monitoring for a Domestic Service Robot},
+	volume = {57},
+	year = {2015},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1515/itit-2014-1064}}
+
+@conference{Shpieva2013Integrating-the,
+	author = {Shpieva, Elizaveta and Awaad, Iman},
+	booktitle = {Workshop on Roboterkontrollarchitekturen at Informatik},
+	date-added = {2015-03-31 07:50:11 +0000},
+	date-modified = {2015-03-31 07:50:11 +0000},
+	keywords = {planning, execution, monitoring, control architectures, me},
+	rating = {4},
+	title = {Integrating the Planning, Execution and Monitoring Systems for a Domestic Service Robot},
+	year = {2013}}
+
+@inproceedings{Tan2016,
+	abstract = {Cognitive robotics aims at understanding biological processes, though it has also the potential to improve future robotics systems. Here we show how a biologically inspired model of motor control with neural fields can be augmented with additional components such that it is able to solve a basic robotics task, that of obstacle avoidance. While obstacle avoidance is a well researched area, the focus here is on the extensibility of a biologically inspired framework. This work demonstrates how easily the biological inspired system can be used to adapt to new tasks. This flexibility is thought to be a major hallmark of biological agents.},
+	address = {Klagenfurt, Austria},
+	author = {Tan, Chun Kwang and Ploeger, Paul G. and Trappenberg, Thomas P.},
+	booktitle = {KI 2016 - German Conference on Artificial Intelligence},
+	number = {39},
+	timestamp = {2016.09.26},
+	title = {A Neural Field approach to Obstacle Avoidance},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-46073-4_6},
+	year = {2016},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-46073-4_6}}
+
+@inproceedings{Thoduka2016,
+	abstract = {Autonomous industrial robots need to recognize objects robustly in cluttered environments. The use of RGB-D cameras has progressed research in 3D object recognition, but it is still a challenge for textureless objects. We propose a set of features, including the bounding box, mean circle fit and radial density distribution, that describe the size, shape and colour of objects. The features are extracted from point clouds of a set of objects and used to train an SVM classifier. Various combinations of the proposed features are tested to determine their influence on the recognition rate. Medium-sized objects are recognized with high accuracy whereas small objects have a lower recognition rate. The minimum range and resolution of the cameras are still an issue but are expected to improve as the technology improves.},
+	address = {Leipzig, Germany},
+	author = {Thoduka, Santosh and Pazekha, Stepan and Moriarty, Alexander and Kraetzschmar, Gerhard K.},
+	booktitle = {Proceedings of the 20th RoboCup International Symposium},
+	keywords = {object recognition, machine learning, textureless objects, RGB-D data, coloured pointclouds},
+	timestamp = {2016.06.03},
+	title = {{RGB-D-Based Features for Recognition of Textureless Objects}},
+	url = {https://www.semanticscholar.org/paper/RGB-D-Based-Features-for-Recognition-of-Textureless-Thoduka-Pazekha/78a19078daacbec0960c9a5cebc3fa0214a49747},
+	year = {2016},
+	Bdsk-Url-1 = {https://www.semanticscholar.org/paper/RGB-D-Based-Features-for-Recognition-of-Textureless-Thoduka-Pazekha/78a19078daacbec0960c9a5cebc3fa0214a49747}}
+
+@inproceedings{Thoduka2017,
+	abstract = {Vision-based motion detection, an important skill for an autonomous mobile robot operating in dynamic environments, is particularly challenging when the robot's camera is in motion. In this paper, we use a Fourier-Mellin transform-based image registration method to compensate for camera motion before applying temporal differencing for motion detection. The approach is evaluated online as well as offline on a set of sequences recorded with a Care-O-bot 3, and compared with a feature-based method for image registration. In comparison to the feature-based method, our method performs better both in terms of robustness of the registration and the false discovery rate.},
+	address = {Nagoya, Japan},
+	author = {Thoduka, Santosh and Hegger, Frederik and Kraetzschmar, Gerhard K. and Pl{\"o}ger, Paul G.},
+	booktitle = {Proceedings of the 21st RoboCup International Symposium},
+	keywords = {motion detection, mobile robots, egomotion compensation, fourier-mellin transform},
+	timestamp = {2017.07.31},
+	title = {{Motion Detection in the Presence of Egomotion Using the Fourier-Mellin Transform}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-030-00308-1_21},
+	year = {2017},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-030-00308-1_21}}
+
+@inproceedings{J.-Vandorpe2014REMOTE-FPGA-DES,
+	author = {Vandorpe, J. and Vliegen, J. and Smeets, R. and Mentens, N. and Drutarovsky, M. and Varchola, M. and Lemke-Rust, K. and Pl{\"o}ger, P. and Samarin, P. and Koch, D. and Hafting, Y. and T{\o}rresen, J.},
+	booktitle = {Proceedings of the 24th International Conference on Field Programmable, Logic and Applications (FPL 2014)},
+	date-added = {2015-10-02 09:11:46 +0000},
+	date-modified = {2015-10-02 09:13:17 +0000},
+	title = {Remote {FPGA} Design Through {EDIVIDE} -- European Digital Virtual Design Lab},
+	year = {2014}}
+
+@inproceedings{Wisspeintner2006,
+	author = {Wisspeintner, T. and Bose, A. and Ploeger, Paul G.},
+	booktitle = {Proceedings of Safety, Security and Rescue Robotics},
+	title = {{Robot Prototyping for Rough Terrain Applications and High Mobility with VolksBot RT}},
+	year = {2006}}
+
+@inproceedings{VanderZant2005,
+	abstract = {RoboCup projects can face a lack of progress and continuity. The teams change continuously and knowledge gets lost. The approach used in previous years is no longer valid due to rule changes and specialists leaving the team leave black boxes that no-one understands. This article presents the application of a recent software development technique called eXtreme Programming to the realm of RoboCup. Many common problems typical for teams of students seem to be solvable with this technique. It also gradually spreads out in professional software production companies. Students mastering it are of high use for their further career after having left the university. The strategy is being tested on a real RoboCup Mid-Size and an Aibo league project and produces very promising results. The approach makes it possible to modularize scientific knowledge into software that can be re-used. Both the scientist/expert, who has the knowledge, and the software development team benefit from this approach without much overhead on the project.},
+	address = {Osaka, Japan},
+	author = {van der Zant, Tijn and Ploeger, Paul G.},
+	booktitle = {RoboCup Symposium},
+	title = {{Lightweight Management - Taming the RoboCup Development Process}},
+	url = {https://link.springer.com/chapter/10.1007/11780519_56},
+	year = {2005},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/11780519_56}}
+
+@inproceedings{Sanchez2016,
+	abstract = {Mobile manipulators are intended to be deployed in domestic and industrial environments where they will carry out tasks that require physical interaction with the surrounding world, for example, picking or handing over fragile objects. In-hand slippage, i.e. a grasped object moving within the robot's grasp, is inherent to many of these tasks and thus, a robot's ability to detect a slippage is vital for executing a manipulation task successfully. In this paper, we develop a slip detection approach which is based on the robot's tactile sensors, a force/torque sensor and a combination thereof. The evaluation of our approach, carried out on the Care-O-bot 3 platform, highly suggests that the actions and motions performed by the robot during grasping should be taken into account during slip detection for improved performance. Based on this insight, we propose an in-hand slip detection architecture that is able to adapt to the current robot's actions at run time.},
+	author = {Sanchez, Jose and Schneider, Sven and Hochgeschwender, Nico and Kraetzschmar, Gerhard K. and Pl\"{o}ger, Paul G.},
+	booktitle = {Proceedings of the IFAC Symposium on Intelligent Autonomous Vehicles (IAV)},
+	title = {Context-Based Adaptation of In-Hand Slip Detection for Service Robots},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405896316310461},
+	year = {2016},
+	Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/pii/S2405896316310461}}
+
+@incollection{Iocchi2017,
+	abstract = {Service robots performing complex tasks involving people in houses or public environments are becoming more and more common, and there is a huge interest from both the research and the industrial point of view. The RoCKIn@Home challenge has been designed to compare and evaluate different approaches and solutions to tasks related to the development of domestic and service robots. RoCKIn@Home competitions have been designed and executed according to the benchmarking methodology developed during the project and received very positive feedbacks from the participating teams. Tasks and functionality benchmarks are explained in detail.},
+	author = {Iocchi, Luca and Kraetzschmar, Gerhard K. and Nardi, Daniele and Lima, Pedro U. and Miraldo, Pedro and Bastianelli, Emanuele and Capobianco, Roberto},
+	booktitle = {RoCKIn - Benchmarking Through Robot Competitions},
+	publisher = {InTech},
+	title = {RoCKIn@Home: Domestic Robots Challenge},
+	url = {https://www.intechopen.com/books/rockin-benchmarking-through-robot-competitions/rockin-home-domestic-robots-challenge},
+	year = {2017},
+	Bdsk-Url-1 = {https://www.intechopen.com/books/rockin-benchmarking-through-robot-competitions/rockin-home-domestic-robots-challenge}}
+
+@incollection{Bischoff2017,
+	abstract = {RoCKIn@Work was focused on benchmarks in the domain of industrial robots. Both task and functionality benchmarks were derived from real world applications. All of them were part of a bigger user story painting the picture of a scaled down real world factory scenario. Elements used to build the testbed were chosen from common materials in modern manufacturing environments. Networked devices, machines controllable through a central software component, were also part of the testbed and introduced a dynamic component to the task benchmarks. Strict guidelines on data logging were imposed on participating teams to ensure gathered data could be automatically evaluated. This also had the positive effect that teams were made aware of the importance of data logging, not only during a competition but also during research as useful utility in their own laboratory. Tasks and functionality benchmarks are explained in detail, starting with their use case in industry, further detailing their execution and providing information on scoring and ranking mechanisms for the specific benchmark.},
+	author = {Bischoff, Rainer and Friedrich, Tim and Kraetzschmar, Gerhard K. and Schneider, Sven and Hochgeschwender, Nico},
+	booktitle = {RoCKIn - Benchmarking Through Robot Competitions},
+	publisher = {InTech},
+	title = {RoCKIn@Work: Industrial Robot Challenge},
+	url = {https://www.intechopen.com/books/rockin-benchmarking-through-robot-competitions/rockin-work-industrial-robot-challenge},
+	year = {2017},
+	Bdsk-Url-1 = {https://www.intechopen.com/books/rockin-benchmarking-through-robot-competitions/rockin-work-industrial-robot-challenge}}
+
+@inproceedings{Riestock2017,
+	abstract = {The successes of teleoperation scenarios for mobile robots depends on a stable and reliable communication link. The environment information collected by the robot - represented by 2D or 3D images - has to be provided with a high resolution and a low delay to ensure a fast and precise system response. But in most realistic applications, the communication parameters fluctuate strongly over time. It is necessary to monitor the communication link continuously to react in case of reduced bandwidth and increased delay. But which environment information and correspondingly which bandwidth is necessary to control a robot safely? Due to a missing reliable rule set we investigated this question for a UAV scenario based on two different environment representations (camera images, gridmaps). We designed a simulator based study and evaluated the capability of the participants to control a robot in case of delayed or coarsely rasterized information. Although our study involved only non-experts, we found some interesting first results. While the performance of our participants depends strongly on the delay, it is nearly independent on the image resolution, which suggests downsampling as a valid response for bandwidth decrease. We also found that participants generally struggle with using grid map for controlling the robot. However, this type of interfaces requires far less bandwidth than images. They also excel in situations with higher delays, which makes them the tool of choice when there are really bad channel conditions.},
+	author = {Riestock, Maik and Engelhardt, Frank and Zug, Sebastian and Hochgeschwender, Nico},
+	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	title = {{User study on remotely controlled UAVs with focus on interfaces and data link quality}},
+	url = {https://ieeexplore.ieee.org/document/8206179},
+	year = {2017},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/8206179}}
+
+@incollection{Bleses2017,
+	abstract = {Die Forschung zur kontrovers diskutierten Robotik in der Pflege und Begleitung von Personen mit Demenz steht noch am Anfang, obwohl bereits erste Systeme auf dem Markt sind. Die zentrale Frage besteht darin, ob und wie sich Telepr{\"a}senzroboter im Alltag von Personen mit Demenz integrieren lassen und wie sich diese Integration auf das Lebensarrangement der Menschen mit Demenz und der betreuenden Personen auswirkt. Die (Pflege)Wissenschaft wird sich damit auseinanderzusetzen haben, ob ein fiktionales und/oder ein innovatives Potenzial zur Telepr{\"a}senzrobotik in der Pflege von Personen mit Demenz vorliegt. Zu erwarten ist ein Nutzen der Forschungsergebnisse in dreifacher Hinsicht: f{\"u}r die Pflegewissenschaft (Grundlagen f{\"u}r das theoretische Verst{\"a}ndnis der Lebenswelten von Personen mit Demenz und erweiterte robotikunterst{\"u}tzte Versorgungs-konzepte), f{\"u}r die Ingenieurwissenschaften (Impulse f{\"u}r die Entwicklung robotischer Unterst{\"u}tzungssysteme) und f{\"u}r Betroffene, Angeh{\"o}rige und Fachpersonen (neue Versorgungsoptionen).},
+	author = {Bleses, Helma M. and Ziegler, Sven and F{\"u}ller, Matthias and Beer, Thomas},
+	booktitle = {Digitale Transformation von Dienstleistungen im Gesundheitswesen III},
+	editor = {Mario A. Pfannstiel and Sandra Krammer and Walter Swoboda},
+	pages = {221--231},
+	publisher = {Springer Gabler},
+	title = {{Personen mit Demenz und Telepr{\"a}senzroboter: Virtuelle Begegnungen in Alltagssituationen}},
+	url = {https://www.springerprofessional.de/en/personen-mit-demenz-und-telepraesenzroboter-virtuelle-begegnunge/15172118},
+	year = {2017},
+	Bdsk-Url-1 = {https://www.springerprofessional.de/en/personen-mit-demenz-und-telepraesenzroboter-virtuelle-begegnunge/15172118}}
+
+@inproceedings{Cornelius2017,
+	abstract = {Future homes will contain Mobile Service Robots (MSR) with diverse functionality. MSRs act in close proximity to humans and have the physical capabilities to cause serious harm to their environment. Furthermore, they have sensors that gather large amounts of data, which might contain sensitive information. A mobile service robot's physical capabilities are controlled by networked computers susceptible to faults and intrusions. The proximity to humans and the possibility to physically interact with them makes it critical to think about the security issues of MSRs. In this work, we investigate possible attacks on mobile service robots. We survey adversary motivations to attack MSRs, analyse threat vectors and list different available defence mechanisms against attacks on MSRs.},
+	author = {Cornelius, Gary and Caire, Patrice and Hochgeschwender, Nico and Olivares-Mendez, Miguel A. and Esteves-Verissimo, Paulo and V{\"o}lp, Marcus and Voos, Holger},
+	booktitle = {Third Iberian Robotics Conference (ROBOT)},
+	title = {{A Perspective of Security for Mobile Service Robots}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-70833-1_8},
+	year = {2017},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-70833-1_8}}
+
+@inproceedings{Vanzo2017,
+	abstract = {Speech understanding is a fundamental feature for many applications focused on human-robot interaction. Although many techniques and several services for speech recognition and natural language understanding have been developed in the last years, specific implementation and validation on domestic service robots have not been performed. In this paper, we describe the implementation and the results of a functional benchmark for speech understanding in service robotics that has been developed and tested in the context of different robot competitions: RoboCup@Home, RoCKIn@Home and within the European Robotics League on Service Robots. Different approaches used by the teams in the competitions are presented and the evaluation results obtained in the competitions are discussed.},
+	author = {Vanzo, Andrea and Iocchi, Luca and Nardi, Daniele and Memmesheimer, Raphael and Paulus, Dietrich and Ivanovska, Iryna and Kraetzschmar, Gerhard},
+	booktitle = {Proceedings of the 4th Italian Workshop on Artificial Intelligence and Robotics (AIRO)},
+	title = {{Benchmarking Speech Understanding in Service Robotics}},
+	url = {https://www.semanticscholar.org/paper/Benchmarking-Speech-Understanding-in-Service-Vanzo-Iocchi/1cd6077bc93b9d9adffd8b3246b3d56b5ca565e9},
+	year = {2017},
+	Bdsk-Url-1 = {https://www.semanticscholar.org/paper/Benchmarking-Speech-Understanding-in-Service-Vanzo-Iocchi/1cd6077bc93b9d9adffd8b3246b3d56b5ca565e9}}
+
+@inproceedings{Schultz2017,
+	abstract = {Robotic systems blend hardware and software in a holistic way that intrinsically raises many crosscutting concerns such as concurrency, uncertainty, and time constraints. These concerns make programming robotic systems challenging as expertise from multiple domains needs to be integrated conceptually and technically. Programming languages play a central role in providing a higher level of abstraction. This briefing presents a case study on the evolution of domain-specific languages based on modular robotics. The case study on the evolution of domain-specific languages is based on a series of DSL prototypes developed over five years for the domain of modular, self-reconfigurable robots.},
+	author = {Schultz, Ulrik Pagh and Bordignon, Mirko and Stoy, Kasper and Nordmann, Arne and Hochgeschwender, Nico and Wrede, Sebastian},
+	booktitle = {Grand Timely Topics in Software Engineering (GTTSE)},
+	title = {{DSLs in Robotics: A Case Study in Programming Self-reconfigurable Robots}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-319-60074-1_5},
+	year = {2017},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-319-60074-1_5}}
+
+@inproceedings{Brugali2017,
+	abstract = {Control systems for autonomous robots are concurrent, distributed, embedded, real-time and data intensive software systems. A real-world robot control system is composed of tens of software components. For each component providing robotic functionality, tens of different implementations may be available. The difficult challenge in robotic system engineering consists in selecting acoherent set of components, which provide the functionality required by theapplication requirements, taking into account their mutual dependencies. This challenge is exacerbated by the fact that robotics system integrators andapplication developers are usually not specifically trained in softwareengineering. Current approaches to variability management in complex software systemsconsists in explicitly modeling variation points and variants in softwarearchitectures in terms of Feature Models. The novel contribution of this paper is the description of the integration oftwo modeling languages and toolkit, namelyHyperFlex for functional variability modeling and the Robot Perception Specification Language (RPSL), a Domain-specific Language (DSL) enabling domain experts to express the architectural variability of robotperception systems.},
+	author = {Brugali, Davide and Hochgeschwender, Nico},
+	booktitle = {IEEE International Conference on Robotic Computing (IRC)},
+	title = {{Managing the Functional Variability of Robotic Perception Systems}},
+	url = {https://ieeexplore.ieee.org/abstract/document/7926550},
+	year = {2017},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/abstract/document/7926550}}
+
+@inproceedings{Riestock2017a,
+	abstract = {The successes of teleoperation scenarios for mobile robots depends on a stable and reliable communication link. The environment information collected by the robot -- represented by 2D or 3D images -- has to be provided with a high resolution and a low delay to ensure a fast and precise system response. But in most realistic applications, the communication parameters fluctuate strongly over time. It is necessary to monitor the communication link continuously to react in case of reduced bandwidth and increased delay. But which environment information and correspondingly which bandwidth is necessary to control a robot safely? Due to a missing reliable rule set we investigated this question for a UAV scenario based on two different environment representations (camera images, gridmaps). We designed a simulator based study and evaluated the capability of the participants to control a robot in case of delayed or coarsely rasterized information.},
+	author = {Riestock, Maik and Engelhardt, Frank and Zug, Sebastian and Hochgeschwender, Nico},
+	booktitle = {Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+	title = {{Exploring Gridmap-based Interfaces for the Remote Control of UAVs under Bandwidth Limitations}},
+	url = {https://dl.acm.org/doi/10.1145/3029798.3038350},
+	year = {2017},
+	Bdsk-Url-1 = {https://dl.acm.org/doi/10.1145/3029798.3038350}}
+
+@inproceedings{Gammaitoni2016,
+	abstract = {The design space of a robotic application defines at a meta level what are all of its possible implementations. Those possibilities are called design alternatives and differ on many different aspects, one being preferred to the other depending on how, where, when or what the application should do. Design Space Exploration (DSE) is the process of reviewing those design alternatives, prior to their implementation, with intention to verify that the set of all design alternatives to be implemented covers all the possible scenarios in which the application is to be executed. In this paper we address two challenges related to DSE, namely, (1) the formal definitions of design spaces, a non-trivial task due to the many dimensions to be taken into consideration, and (2) the automatisation of DSE, that is, enabling a domain expert to review design alternatives corresponding to a given design space effortlessly. In this paper, we address those challenges in the context of robot perception software systems by combining two already existing technologies, namely RPSL for the specification of robot perception system's design spaces and Lightning, a language workbench that we use to formalise RPSL and obtain, from RPSL specifications, corresponding design alternatives.},
+	author = {Gammaitoni, Loic and Hochgeschwender, Nico},
+	booktitle = {IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {{RPSL meets lightning: A model-based approach to design space exploration of robot perception systems}},
+	url = {https://ieeexplore.ieee.org/document/7862378},
+	year = {2016},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/7862378}}
+
+@inproceedings{Hochgeschwender2016,
+	abstract = {Software development for robots is a knowledge intensive exercise. To capture this knowledge explicitly and formally in the form of various domain models, roboticists have recently employed model-driven engineering (MDE) approaches. However, these models are merely seen as a way to support humans during the robot's software design process. We argue that the robots themselves should be first-class consumers of this knowledge to autonomously adapt their software to the various and changing run-time requirements induced, for instance, by the robot's tasks or environment. Motivated by knowledge-enabled approaches, we address this problem by employing a graph-based knowledge representation that allows us not only to persistently store domain models, but also to formulate powerful queries for the sake of run time adaptation. We have evaluated our approach in an integrated, real-world system using the neo4j graph database and we report some lessons learned. Further, we show that the graph database imposes only little overhead on the system's overall performance.},
+	author = {Hochgeschwender, Nico and Schneider, Sven and Voos, Holger and Bruyninckx, Herman and Kraetzschmar, Gerhard K.},
+	booktitle = {IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)},
+	title = {{Graph-based software knowledge: Storage and semantic querying of domain models for run-time adaptation}},
+	url = {https://ieeexplore.ieee.org/document/7862379},
+	year = {2016},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/7862379}}
+
+@inproceedings{Kulkarni2019,
+	abstract = {Flexible gripping mechanisms are advantageous for robots when dealing with dynamic environments due to their compliance. However, a major obstacle to using commercially-available flexible fingers is the lack of appropriate feedback sensors. In this paper, we propose a novel integration of flexible fingers with commercial off-the-shelf proximity sensors. This integrated system enables us to perform non-interfering measurements of even minor deformations in the flexible fingers and consequently deduce information about grasped objects without the need of advanced fabrication methods. Our experiments have demonstrated that the sensor is capable of robustly detecting grasps on most test objects with an accuracy of 100% without false positives by relying on simple, yet powerful signal processing and can detect deformations of less than 0.03 mm. In addition, the sensor detects objects that are slipping through the flexible fingers.},
+	author = {Kulkarni, Padmaja and Schneider, Sven and Ploeger, Paul G.},
+	booktitle = {Proceedings of the 32nd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE)},
+	title = {{Low-Cost Sensor Integration for Robust Grasping with Flexible Robotic Fingers}},
+	url = {https://link.springer.com/chapter/10.1007/978-3-030-22999-3_57},
+	year = {2019},
+	Bdsk-Url-1 = {https://link.springer.com/chapter/10.1007/978-3-030-22999-3_57}}
+
+@inproceedings{Kulkarni2019a,
+	abstract = {Teleoperation is still the de-facto mode of operation for robotic manipulators in hazardous and unknown environments. The objective is to move the manipulator under the influence of a plenitude of constraints, mainly following the human operator's commands, but also the avoidance of adverse effects such as joint limits or the exertion of external forces. A classic approach to incorporate such non-instantaneous behavior into the instantaneous motion of the kinematic chain is the Closed-Loop Inverse Kinematics (CLIK) control scheme.
+
+In this paper, we present PV-CLIK, a novel CLIK realization that for the first time practically applies the Popov-Vereshchagin (PV) hybrid dynamics solver to map the instantaneous constraints to motion commands. By relying on the PV solver, PV-CLIK offers several benefits over traditional CLIK implementations such as linear runtime complexity, handling constraints on the dynamics level or fostering composable software architectures. In the experimental evaluation, we show that our implementation of PV-CLIK outperforms existing kinematics solvers in Cartesian trajectory-following tasks at high velocities.},
+	author = {Kulkarni, Padmaja and Schneider, Sven and Bennewitz, Maren and Schulz, Dirk and Pl{\"o}ger, Paul G.},
+	booktitle = {Proc. IEEE International Conference on Advanced Robotics (ICAR)},
+	title = {{Applying the Popov-Vereshchagin Hybrid Dynamics Solver for Teleoperation under Instantaneous Constraints}},
+	url = {https://ieeexplore.ieee.org/document/8981568},
+	year = {2019},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/8981568}}
+
+@inproceedings{Cervantes2020,
+	abstract = {The act of grasping is fundamental for a robot to purposefully interact with its environment. However, all too often roboticists treat it as a singular event that can be solved with elaborate prior information such as kinematic models and planning thereupon. Instead, we advocate the view of grasping as a process that requires continuous adaptation to handle cases like (i) uncertainty in the objects' shape or mass that may result in imperfect grasps; or (ii) objects slipping in the robot's fingers. Recently, compliant fingers have been employed to address those challenges. However, it is still an open question how to properly integrate sensors to estimate the fingers' grasping state.
+
+We propose the integration of low-cost -- in terms of monetary expenses and integration effort -- bend sensors and proximity sensors into a pair of flexible fingers. The resulting system enables the robot to detect and react to object slippage by relying on a simple sensor fusion scheme. We successfully demonstrate those capabilities over a set of objects that feature varying characteristics in terms of geometric shape, mass or rigidity. Two specially challenging objects are a fragile chocolate egg and a key chain that the robot still handles successfully.},
+	author = {Cervantes, Eduardo and Schneider, Sven and Pl{\"o}ger, Paul G.},
+	booktitle = {Proc. of Modern Problems of Robotics},
+	title = {{Low-cost in-hand slippage detection and avoidance for robust robotic grasping with compliant fingers}},
+	year = {2020}}
+
+@inproceedings{Sundaram2016,
+	abstract = {This work presents a dual arm grasp planning architecture that includes two relevant aspects often neglected: differences in hand actuation, and realistic forces applicable by the end effectors. The introduction of an actuation matrix allows considering differences in contact forces that can be generated between, for instance, a fully actuated and an underactuated hand. The consideration of realistic forces allows the computation of real magnitudes of forces and torques that can be resisted by the grasped object. The manipulability workspace can also be computed based on the capability maps, thus providing all the possible motions that can be imparted on the grasped object while respecting the dual hand grasp constraints. The joint consideration of these factors allow the selection of a good grasp for a desired bimanual manipulation.},
+	author = {Sundaram, Ashok M. and Porges, Oliver and Roa, M{\'a}ximo A.},
+	booktitle = {Proceedings of the 2016 {IEEE-RAS} International Conference on Humanoid Robots (HUMANOIDS)},
+	title = {Planning Realistic Interactions for Bimanual Grasping and Manipulation},
+	url = {https://ieeexplore.ieee.org/document/7803392},
+	year = {2016},
+	Bdsk-Url-1 = {https://ieeexplore.ieee.org/document/7803392}}
